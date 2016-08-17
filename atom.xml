@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>KangSeven&#39;s Blog</title>
+  <subtitle>NOT Genius but Try Best.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://kangseven7.github.io/"/>
+  <updated>2016-08-14T13:35:59.323Z</updated>
+  <id>http://kangseven7.github.io/</id>
+  
+  <author>
+    <name>Kang Seven</name>
+    <email>kangseven7@qq.com</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://kangseven7.github.io/2016/08/17/hello-world/"/>
+    <id>http://kangseven7.github.io/2016/08/17/hello-world/</id>
+    <published>2016-08-16T19:07:42.376Z</published>
+    <updated>2016-08-14T13:35:59.323Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<a id="more"></a>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Haroopad</title>
+    <link href="http://kangseven7.github.io/2016/08/14/about-copy/"/>
+    <id>http://kangseven7.github.io/2016/08/14/about-copy/</id>
+    <published>2016-08-14T00:55:29.000Z</published>
+    <updated>2016-08-14T13:33:26.981Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Haroopad"><a href="#Haroopad" class="headerlink" title="Haroopad"></a>Haroopad</h1><p><strong>Haroopad</strong> is a markdown enabled document processor for creating web-friendly documents.</p>
+<p>You can author professional-looking documents of various formats: blog posts, slides, presentations, reports, email and more.</p>
+<p>Haroopad gives you the same editing experience regardless of the platform you are working on. It runs on all three major operating systems—Windows, Mac OS X, and Linux.</p>
+<p><img src="http://notes.iissnan.com/uploads/upgrade-computer-components/shut-up-and-take-my-money.jpg" alt="haroopad icon"></p>
+<a id="more"></a>
+<h3 id="New-Features-v0-13-1"><a href="#New-Features-v0-13-1" class="headerlink" title="==New Features (v0.13.1)=="></a>==New Features (v0.13.1)==</h3><ul>
+<li>New Features<ul>
+<li>Displays the number of tasks that are not completed in the app badge</li>
+<li>Added two themes into editor. tomorrow-night-bright, zenburn</li>
+</ul>
+</li>
+</ul>
+<h3 id="More-changelog"><a href="#More-changelog" class="headerlink" title="==More changelog=="></a>==More changelog==</h3><ul>
+<li>Bugs<ul>
+<li>[Win, Linux] UI language setting error</li>
+<li>[Win] Print error</li>
+<li>[Presentation] Fixed local cover image error.</li>
+<li>Fixed Border-Style display error with code syntax</li>
+<li>Fixed Num 6 key action error</li>
+<li>Fixed Openning math doc error</li>
+<li>Fixed Inline math expression</li>
+<li>Fixed Undoing “Emphasize” does not restore selection</li>
+<li>Fixed Copy find and paste</li>
+</ul>
+</li>
+<li>Enhancements<ul>
+<li>[Win] Ctrl-Y conflict with shortcut for underline syntax. </li>
+<li>align Check boxes in task lists with bullet points of regular lists</li>
+</ul>
+</li>
+</ul>
+<h3 id="Main-Features"><a href="#Main-Features" class="headerlink" title="Main Features"></a>Main Features</h3><ul>
+<li>Support cross platform<ul>
+<li>Window</li>
+<li>Mac OS X</li>
+<li>Linux 32/64</li>
+</ul>
+</li>
+<li>Theme for editing<ul>
+<li>Themes for editor 30 styles </li>
+<li>Syntax highlighting in fenced code block on editor</li>
+<li>Ruby, Python, PHP, Javascript, C, HTML, CSS</li>
+<li>based on CodeMirror</li>
+</ul>
+</li>
+<li>Live Preview themes<ul>
+<li>7 themes based <a href="https://github.com/rhiokim/markdown-css" target="_blank" rel="external">markdown-css</a></li>
+</ul>
+</li>
+<li>Syntax Highlighting<ul>
+<li>112 languages &amp; 49 styles based on highlight.js</li>
+</ul>
+</li>
+<li>Presentation Mode - <a href="http://pad.haroopress.com/page.html?f=how-to-write-presentation" target="_blank" rel="external">http://pad.haroopress.com/page.html?f=how-to-write-presentation</a> - v0.13.0</li>
+<li>Drawing Diagram (flowchart, Sequence Diagram) - <a href="http://pad.haroopress.com/page.html?f=how-to-draw-diagram" target="_blank" rel="external">http://pad.haroopress.com/page.html?f=how-to-draw-diagram</a> - v0.13.0</li>
+<li>Custom Theme<ul>
+<li>Style based on CSS(Cascading Style Sheet)</li>
+</ul>
+</li>
+<li>Font Size<ul>
+<li>Editor and Viewer font size control using Preference Window &amp; Shortcuts</li>
+</ul>
+</li>
+<li>Embedding Rich Media Contents - v0.8<ul>
+<li>Video, Audio, 3D, Text, Open Graph and oEmbed</li>
+<li>About 100 Major Internet Services(Youtube, SoundCloud, Flickr…) Support</li>
+<li>Drag &amp; Drop support</li>
+</ul>
+</li>
+<li>Display Mode - v0.8<ul>
+<li>Default(Editor:Viewer), Reverse(Viewer:Editor), Only Editor, Only Viewer (View &gt; Mode)</li>
+</ul>
+</li>
+<li>Insert Current Date &amp; Time - v0.8<ul>
+<li>Various Format support (Insert &gt; Date &amp; Time)</li>
+</ul>
+</li>
+<li>HTML to Markdown - v0.8<ul>
+<li>Drag &amp; Drop your selected text on Web Browser</li>
+</ul>
+</li>
+<li>Options for markdown parsing</li>
+<li>CLI(Command Line Interface) - v0.12.1<ul>
+<li><code>$ haroopad -f [ /path/to/a.md ./path/to/b.md ]</code>: files</li>
+<li><code>$ haroopad --mode</code>: only view or edit mode<ul>
+<li><code>$ haroopad --mode view</code>: view mode</li>
+<li><code>$ haroopad --mode edit</code>: edit mode</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Outline View</li>
+<li>Vim Key-binding</li>
+<li>Export to PDF, HTML</li>
+<li>Styled HTML copy to clipboard for WYSIWYG editors</li>
+<li>Auto Save &amp; Restore</li>
+<li>Document state information</li>
+<li>Tab or Spaces for Indentation</li>
+<li>Colum(Single, Two and Three) Layout View</li>
+<li>Markdown Syntax Help Dialog</li>
+<li>Markdown Folding</li>
+<li>Import and Export settings</li>
+</ul>
+<h3 id="Internationalization"><a href="#Internationalization" class="headerlink" title="Internationalization"></a>Internationalization</h3><ul>
+<li>English</li>
+<li>Korea (한국어)</li>
+<li>Spanish (Español) - <a href="https://github.com/davegomez" target="_blank" rel="external">davegomez</a></li>
+<li>Chinese Simplified (中文) - <a href="https://github.com/toiletfreak" target="_blank" rel="external">toiletfreak</a></li>
+<li>German (Deutsch) - <a href="https://github.com/tobiasmuecksch" target="_blank" rel="external">Tobias Mücksch</a></li>
+<li>Vietnamese (Tiếng Việt) - <a href="https://github.com/nguyenkinh" target="_blank" rel="external">nguyenkinh</a></li>
+<li>Russian (Русский) - <a href="https://github.com/aprilix" target="_blank" rel="external">aprilix</a></li>
+<li>Greek (Ελληνικά) - <a href="https://github.com/pdudis" target="_blank" rel="external">pdudis</a></li>
+<li>Portuguese (Portuguesa) - <a href="https://github.com/alexandre-mbm" target="_blank" rel="external">alexandre mbm</a></li>
+<li>Japanese (日本語) - <a href="https://github.com/Toshiyuki-Tega" target="_blank" rel="external">Toshiyuki Tega</a></li>
+<li>Italy (Italiano) - <a href="https://github.com/Zeriuno" target="_blank" rel="external">Daniele Pitrolo</a></li>
+<li>Indonesia (Bahasa Indonesia) - <a href="https://github.com/rezafaizarahman" target="_blank" rel="external">Reza Faiz A. Rahman</a></li>
+<li>Turkey  (Türkçe) - <a href="https://github.com/erayaydin" target="_blank" rel="external">Eray AYDIN</a></li>
+<li>French (Français) - <a href="https://github.com/MarcBoyer" target="_blank" rel="external">MarcBoyer</a>, <a href="https://github.com/daniel-menard" target="_blank" rel="external">Daniel Ménard</a></li>
+</ul>
+<h3 id="Enhanced-Markdown-Syntax"><a href="#Enhanced-Markdown-Syntax" class="headerlink" title="Enhanced Markdown Syntax"></a>Enhanced Markdown Syntax</h3><ul>
+<li>Added <code>[TOC]</code> Syntax<ul>
+<li>Now you can easily embed table of content in documents.</li>
+<li>Left Align: <code>[TOC &quot;float:left&quot;]</code></li>
+<li>Right Align: <code>[TOC &quot;float:right&quot;]</code></li>
+</ul>
+</li>
+<li><code>![]()</code> Extended image syntax<ul>
+<li><code>![alt text](url &quot;title&quot; &quot;css&quot;)</code></li>
+</ul>
+</li>
+<li><a href="http://github.github.com/github-flavored-markdown/" target="_blank" rel="external">Gitub Flavored Markdown</a> &amp; extensions<ul>
+<li>Syntax highlighting</li>
+<li>Table</li>
+<li>URL autolinking</li>
+<li>Strikethrough</li>
+<li>Smartypants</li>
+</ul>
+</li>
+<li>Mathematics Expression<ul>
+<li>Inline Expression: <code>$$$...$$$</code></li>
+<li>Block Expression: <code>$$...$$</code></li>
+<li>Added Option inline mathematics expression (<strong>$</strong>, $$$) </li>
+</ul>
+</li>
+<li>Added Superscript, Subscript<ul>
+<li><code>Sup^superscript^</code>, <code>Sub~subscript~</code></li>
+</ul>
+</li>
+<li>Extended Image Syntax<ul>
+<li>If <code>![](path/*.mp3)</code> then <code>&lt;audio&gt;</code> / extensions mp3, ogg</li>
+<li>If <code>![](path/*.mp4)</code> then <code>&lt;video&gt;</code> / extensions mp4, ogv, webm</li>
+</ul>
+</li>
+<li>Footnote<ul>
+<li>Footnote: <code>[^identity]</code></li>
+<li>Footnote Reference: <code>[^identity]: text</code></li>
+</ul>
+</li>
+<li>Tasklist - <a href="http://pad.haroopress.com/page.html?f=how-to-manage-tasklist" target="_blank" rel="external">http://pad.haroopress.com/page.html?f=how-to-manage-tasklist</a> - v0.13.0<ul>
+<li>Task: <code>- [ ]</code></li>
+<li>Task (Done): <code>- [x]</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="Upcoming-Features"><a href="#Upcoming-Features" class="headerlink" title="Upcoming Features"></a>Upcoming Features</h3><h3 id="And-more"><a href="#And-more" class="headerlink" title="And more?"></a>And more?</h3><ul>
+<li>Official site : <a href="http://pad.haroopress.com" target="_blank" rel="external">http://pad.haroopress.com</a></li>
+<li>Blog &amp; Manual : <a href="http://pad.haroopress.com/page.html" target="_blank" rel="external">http://pad.haroopress.com/page.html</a></li>
+<li>User echo : <a href="http://haroopad.userecho.com" target="_blank" rel="external">http://haroopad.userecho.com</a></li>
+</ul>
+<p>Don’t forget to check Preferences, lots of useful options are there.</p>
+<p>Follow official social account <a href="https://twitter.com/haroopad" target="_blank" rel="external">@haroopad</a> and developer <a href="https://twitter.com/rhiokim" target="_blank" rel="external">@rhiokim</a> on Twitter for the latest news.</p>
+<p>For feedback, use the menu <code>Help</code> - <code>User Echo</code></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Haroopad&quot;&gt;&lt;a href=&quot;#Haroopad&quot; class=&quot;headerlink&quot; title=&quot;Haroopad&quot;&gt;&lt;/a&gt;Haroopad&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Haroopad&lt;/strong&gt; is a markdown enabled document processor for creating web-friendly documents.&lt;/p&gt;
+&lt;p&gt;You can author professional-looking documents of various formats: blog posts, slides, presentations, reports, email and more.&lt;/p&gt;
+&lt;p&gt;Haroopad gives you the same editing experience regardless of the platform you are working on. It runs on all three major operating systems—Windows, Mac OS X, and Linux.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://notes.iissnan.com/uploads/upgrade-computer-components/shut-up-and-take-my-money.jpg&quot; alt=&quot;haroopad icon&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Exercise" scheme="http://kangseven7.github.io/categories/Exercise/"/>
+    
+    
+      <category term="ACM" scheme="http://kangseven7.github.io/tags/ACM/"/>
+    
+      <category term="UVa" scheme="http://kangseven7.github.io/tags/UVa/"/>
+    
+      <category term="C/C++" scheme="http://kangseven7.github.io/tags/C-C/"/>
+    
+  </entry>
+  
+</feed>
