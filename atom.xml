@@ -4,9 +4,9 @@
   <subtitle>NOT Genius but Try Best.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://kangseven7.github.io/"/>
-  <updated>2016-08-14T13:33:26.981Z</updated>
-  <id>http://kangseven7.github.io/</id>
+  <link href="http://kangseven7.coding.me/"/>
+  <updated>2016-08-24T17:37:13.423Z</updated>
+  <id>http://kangseven7.coding.me/</id>
   
   <author>
     <name>Kang Seven</name>
@@ -16,9 +16,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>TEXT</title>
+    <link href="http://kangseven7.coding.me/2016/08/25/TEXT/"/>
+    <id>http://kangseven7.coding.me/2016/08/25/TEXT/</id>
+    <published>2016-08-24T16:32:11.000Z</published>
+    <updated>2016-08-24T17:37:13.423Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>人的一切痛苦，本质上都是对自己的无能的愤怒。</p>
+</blockquote>
+<p>★、一杯加了水的葡萄酒，已经不再醉人了，但还是闻得到清冽的酒香，它能把回忆染醉，染成你承受不了的气味；或者说像一本看过无数遍的悲剧小说，再次阅读的时候，已经无法热泪盈眶，然而胸口里，却依然有一只小拳头，轻轻地在心里敲门。<br><img src="https://oc47w16ru.qnssl.com/lovewallpaper.jpg" class="full-image"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;人的一切痛苦，本质上都是对自己的无能的愤怒。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;★、一杯加了水的葡萄酒，已经不再醉人了，但还是闻得到清冽的酒香，它能把回忆染醉，染成你承受不了的气味；或者说像
+    
+    </summary>
+    
+      <category term="测试" scheme="http://kangseven7.coding.me/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="原创，整理，测试" scheme="http://kangseven7.coding.me/tags/%E5%8E%9F%E5%88%9B%EF%BC%8C%E6%95%B4%E7%90%86%EF%BC%8C%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Haroopad</title>
-    <link href="http://kangseven7.github.io/2016/08/14/about-copy/"/>
-    <id>http://kangseven7.github.io/2016/08/14/about-copy/</id>
+    <link href="http://kangseven7.coding.me/2016/08/14/about-copy/"/>
+    <id>http://kangseven7.coding.me/2016/08/14/about-copy/</id>
     <published>2016-08-14T00:55:29.000Z</published>
     <updated>2016-08-14T13:33:26.981Z</updated>
     
@@ -205,14 +232,14 @@
     
     </summary>
     
-      <category term="Exercise" scheme="http://kangseven7.github.io/categories/Exercise/"/>
+      <category term="Exercise" scheme="http://kangseven7.coding.me/categories/Exercise/"/>
     
     
-      <category term="ACM" scheme="http://kangseven7.github.io/tags/ACM/"/>
+      <category term="ACM" scheme="http://kangseven7.coding.me/tags/ACM/"/>
     
-      <category term="UVa" scheme="http://kangseven7.github.io/tags/UVa/"/>
+      <category term="UVa" scheme="http://kangseven7.coding.me/tags/UVa/"/>
     
-      <category term="C/C++" scheme="http://kangseven7.github.io/tags/C-C/"/>
+      <category term="C/C++" scheme="http://kangseven7.coding.me/tags/C-C/"/>
     
   </entry>
   
