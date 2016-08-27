@@ -116,9 +116,9 @@
       <category term="图形相册" scheme="http://www.kseven.me/categories/%E5%9B%BE%E5%BD%A2%E7%9B%B8%E5%86%8C/"/>
     
     
-      <category term="生活" scheme="http://www.kseven.me/tags/%E7%94%9F%E6%B4%BB/"/>
-    
       <category term="原创" scheme="http://www.kseven.me/tags/%E5%8E%9F%E5%88%9B/"/>
+    
+      <category term="生活" scheme="http://www.kseven.me/tags/%E7%94%9F%E6%B4%BB/"/>
     
       <category term="美图" scheme="http://www.kseven.me/tags/%E7%BE%8E%E5%9B%BE/"/>
     
@@ -133,7 +133,7 @@
     <link href="http://www.kseven.me/2016/Fork-Hello-World/"/>
     <id>http://www.kseven.me/2016/Fork-Hello-World/</id>
     <published>2016-08-26T18:12:40.000Z</published>
-    <updated>2016-08-27T18:43:25.470Z</updated>
+    <updated>2016-08-27T20:10:11.788Z</updated>
     
     <content type="html"><![CDATA[<blockquote class="blockquote-center"><h3 style="font-weight:500">Hello World  或者说 你好，世界。 </h3></blockquote>
 <h3 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World."></a>Hello World.</h3><p>这是学编程的第一个语句，一个个字母敲入，编译，运行，在屏幕上看到这行字时，内心是多么多么激动！</p>
@@ -145,16 +145,16 @@
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">language</span>=<span class="string">"JavaScript"</span>&gt;</span><span class="undefined"></span></div><div class="line">function sayHello()&#123;</div><div class="line">    document.write("Hello World");</div><div class="line">&#125;</div><div class="line">sayHello();</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
 <p>想一想，你刚出生，第一次睁开眼看到这个世界，阳光或者月光穿越你还湿润着的睫毛，投射在娇嫩的视网膜上，新鲜新奇的世界，奇幻奇妙的体验对不对？你想说的第一句话会不会是，“你好啊，世界！”当然，这个前提是你足够有天赋，足够早熟，胎教足够丰富而成功。相信绝大多数的小伙伴，面对这个世界的第一反应，应该是“哇呜……”大哭了呢。</p>
 <h3 id="Hello-World更像是机器人语言？"><a href="#Hello-World更像是机器人语言？" class="headerlink" title="Hello World更像是机器人语言？"></a>Hello World更像是机器人语言？</h3><blockquote>
-<p>假设你设计了一款机器人，高级智能的机器人。如果要你来设定他跟这个世界的第一次交互，会不会是，“Hello World！”呢。第一次读的时候，总感觉就是机器人的见面语，自己还脑补了各种画面，比如撸啊撸的布里茨， <a href="http://v.youku.com/v_show/id_XNjI4NzA5NzY4.html?tpa=dW5pb25faWQ9MTAzNTY1XzEwMDAwMV8wMV8wMQ" target="_blank" rel="external">我的机器人女友</a>  ，<a href="http://v.youku.com/v_show/id_XMTQxOTY4NTk2OA==.html" target="_blank" rel="external">机器人总动员</a>。第一部动漫电影就献给了它，记忆犹新…</p>
+<p>假设你设计了一款机器人，高级智能的机器人。如果要你来设定他跟这个世界的第一次交互，会不会是，“Hello World！”呢。第一次读的时候，总感觉就是机器人的见面语，自己还脑补了各种画面，比如撸啊撸的布里茨， <a href="http://v.youku.com/v_show/id_XNjI4NzA5NzY4.html?tpa=dW5pb25faWQ9MTAzNTY1XzEwMDAwMV8wMV8wMQ" target="_blank" rel="external">我的机器人女友</a>  ，<a href="http://v.youku.com/v_show/id_XMTQxOTY4NTk2OA==.html" target="_blank" rel="external">机器人总动员</a>。第一部动漫电影就献给了它，记忆犹新。叙叙吧…</p>
 </blockquote>
 <p>公元2805年，人类文明高度发展，却因污染和生活垃圾大量增加使得地球不再适于人类居住。地球人被迫乘坐飞船离开故乡，进行一次漫长的宇宙旅行。</p>
 <p>瓦力就是那个被丢在地球上清理垃圾的机器人，日复一日，年复一年，700年里，它慢慢开始拥有了自己的意识。它喜欢将收集来的宝贝小心翼翼藏起，喜欢收工后看看几百年前的歌舞片，此外还有一只蟑螂朋友作伴。直到有一天，一艘来自宇宙的飞船打破了它一成不变的生活。最高科技的代表，身怀绝技且温润高雅的伊娃出现在他孤独的生命里。</p>
 <p>当他看到她的第一眼，他就渴望能和她在一起。他把她带回自己的破烂的家中 ，给她玩魔方，灯泡,打火机 和一片可以挤泡泡的塑料，他为了找个同类分享他的快乐已经等了700年 ，他穷尽着一切小聪明来讨她的喜欢，给睡觉的她带上一串漂亮的彩灯，为她在雨里撑伞哪怕是遭受雷击，带着她在垃圾泥浆里划着小船，他有太多的浪漫想要表达，因为他已经攒了700年 。当然他的勇气也攒了700年，当伊瓦被带走的时候，他为了牵个手，甚至可以冲出地球 。<br>还好不管经历了怎样的波折，这个故事的结局还是圆满的。</p>
 <h3 id="痒比痛更让你无法接受吗？"><a href="#痒比痛更让你无法接受吗？" class="headerlink" title="痒比痛更让你无法接受吗？"></a>痒比痛更让你无法接受吗？</h3><blockquote>
-<p>敲着敲着，就凌晨两点半了。窗外一片寂静，屋内嗡嗡作响，一堆蚊子追着发红包! 事实证明痒比痛难受多了…</p>
+<p>敲着敲着，就凌晨两点半了。窗外一片寂静，屋内嗡嗡作响，一堆蚊子追着发红包! 事实证明痒比痛难受多了，但痛确实可以止痒。隔壁涨价的风油精已经哭晕在厕所…</p>
 </blockquote>
 <p>其实，我们每个人都是孤独的，但是希望你相信，当你对这个世界，“Hello World！”的时候，总有那么一个地方，总有那么一个人，给你温暖的回应，“你好哇！”</p>
-<h5 id="Hello-World-–-by-kangseven"><a href="#Hello-World-–-by-kangseven" class="headerlink" title="Hello World! – by kangseven."></a><em>Hello World! – <a href="http://www.kseven.me/about/">by kangseven</a>.</em></h5><div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 100%;"><img src="https://oc47w16ru.qnssl.com/hw_02.jpg" alt="Hello World"></div></div><div class="group-picture-row"></div></div></div>
+<h5 id="Hello-World-–-by-kangseven"><a href="#Hello-World-–-by-kangseven" class="headerlink" title="Hello World! – by kangseven."></a><em>Hello World! – <a href="http://kangseven7.coding.me/about/" target="_blank" rel="external">by kangseven</a>.</em></h5><div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 100%;"><img src="https://oc47w16ru.qnssl.com/hw_02.jpg" alt="Hello World"></div></div><div class="group-picture-row"></div></div></div>
 ]]></content>
     
     <summary type="html">
@@ -166,12 +166,12 @@
     
     </summary>
     
-      <category term="Hello World" scheme="http://www.kseven.me/categories/Hello-World/"/>
+      <category term="深夜食堂" scheme="http://www.kseven.me/categories/%E6%B7%B1%E5%A4%9C%E9%A3%9F%E5%A0%82/"/>
     
-    
-      <category term="原创" scheme="http://www.kseven.me/tags/%E5%8E%9F%E5%88%9B/"/>
     
       <category term="Hello" scheme="http://www.kseven.me/tags/Hello/"/>
+    
+      <category term="原创" scheme="http://www.kseven.me/tags/%E5%8E%9F%E5%88%9B/"/>
     
       <category term="入坑" scheme="http://www.kseven.me/tags/%E5%85%A5%E5%9D%91/"/>
     
