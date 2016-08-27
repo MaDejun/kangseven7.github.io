@@ -9,6 +9,7 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
+Disallow: /about/
 
 Sitemap: http://www.kseven.me/sitemap.xml
 Sitemap: http://www.kseven.me/baidusitemap.xml

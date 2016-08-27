@@ -17,8 +17,8 @@
   
   <entry>
     <title>TEXT</title>
-    <link href="http://www.kseven.me/2016/08/25/TEXT/"/>
-    <id>http://www.kseven.me/2016/08/25/TEXT/</id>
+    <link href="http://www.kseven.me/2016/TEXT/"/>
+    <id>http://www.kseven.me/2016/TEXT/</id>
     <published>2016-08-24T16:32:11.000Z</published>
     <updated>2016-08-25T08:46:54.146Z</updated>
     
@@ -47,8 +47,8 @@
   
   <entry>
     <title>Haroopad</title>
-    <link href="http://www.kseven.me/2016/08/14/about-copy/"/>
-    <id>http://www.kseven.me/2016/08/14/about-copy/</id>
+    <link href="http://www.kseven.me/2016/about-copy/"/>
+    <id>http://www.kseven.me/2016/about-copy/</id>
     <published>2016-08-14T00:55:29.000Z</published>
     <updated>2016-08-14T13:33:26.981Z</updated>
     
@@ -248,8 +248,8 @@
   
   <entry>
     <title>Unix编程入门之递归遍历目录</title>
-    <link href="http://www.kseven.me/2011/02/15/directories-traversing-on-unix/"/>
-    <id>http://www.kseven.me/2011/02/15/directories-traversing-on-unix/</id>
+    <link href="http://www.kseven.me/2011/directories-traversing-on-unix/"/>
+    <id>http://www.kseven.me/2011/directories-traversing-on-unix/</id>
     <published>2011-02-15T12:01:20.000Z</published>
     <updated>2016-08-25T09:12:49.626Z</updated>
     
