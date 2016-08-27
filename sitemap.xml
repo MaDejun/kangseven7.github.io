@@ -2,23 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.kseven.me/2016/Haroopad/</loc>
+    
+    <lastmod>2016-08-27T18:49:43.556Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.kseven.me/2016/Graphics-Gallery/</loc>
+    
+    <lastmod>2016-08-27T18:44:39.167Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.kseven.me/2016/Fork-Hello-World/</loc>
+    
+    <lastmod>2016-08-27T18:43:25.470Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.kseven.me/about/index.html</loc>
     
-    <lastmod>2016-08-26T07:52:35.525Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.kseven.me/2011/directories-traversing-on-unix/</loc>
-    
-    <lastmod>2016-08-25T09:12:49.626Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.kseven.me/2016/TEXT/</loc>
-    
-    <lastmod>2016-08-25T08:46:54.146Z</lastmod>
+    <lastmod>2016-08-27T16:06:13.599Z</lastmod>
     
   </url>
   
@@ -40,13 +47,6 @@
     <loc>http://www.kseven.me/categories/index.html</loc>
     
     <lastmod>2016-08-15T09:16:31.210Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.kseven.me/2016/about-copy/</loc>
-    
-    <lastmod>2016-08-14T13:33:26.981Z</lastmod>
     
   </url>
   
