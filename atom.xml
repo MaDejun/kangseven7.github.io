@@ -136,7 +136,7 @@
     <link href="http://www.kseven.me/2016/Fork-Hello-World/"/>
     <id>http://www.kseven.me/2016/Fork-Hello-World/</id>
     <published>2016-08-26T18:12:40.000Z</published>
-    <updated>2016-08-29T10:33:41.000Z</updated>
+    <updated>2016-08-29T20:58:18.292Z</updated>
     
     <content type="html"><![CDATA[<blockquote class="blockquote-center"><h3 style="font-weight:500">Hello World  或者说 你好，世界。 </h3></blockquote>
 <h3 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World."></a>Hello World.</h3><p>这是学编程的第一个语句，一个个字母敲入，编译，运行，在屏幕上看到这行字时，内心是多么多么激动！</p>
@@ -148,7 +148,7 @@
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">language</span>=<span class="string">"JavaScript"</span>&gt;</span><span class="undefined"></span></div><div class="line">function sayHello()&#123;</div><div class="line">    document.write("Hello World");</div><div class="line">&#125;</div><div class="line">sayHello();</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
 <p>想一想，你刚出生，第一次睁开眼看到这个世界，阳光或者月光穿越你还湿润着的睫毛，投射在娇嫩的视网膜上，新鲜新奇的世界，奇幻奇妙的体验对不对？你想说的第一句话会不会是，“你好啊，世界！”当然，这个前提是你足够有天赋，足够早熟，胎教足够丰富而成功。相信绝大多数的小伙伴，面对这个世界的第一反应，应该是“哇呜……”大哭了呢。</p>
 <h3 id="Hello-World更像是机器人语言？"><a href="#Hello-World更像是机器人语言？" class="headerlink" title="Hello World更像是机器人语言？"></a>Hello World更像是机器人语言？</h3><blockquote>
-<p>假设你设计了一款机器人，高级智能的机器人。如果要你来设定他跟这个世界的第一次交互，会不会是，“Hello World！”呢。第一次读的时候，总感觉就是机器人的见面语，自己还脑补了各种画面，比如撸啊撸的布里茨， <a href="http://v.youku.com/v_show/id_XNjI4NzA5NzY4.html?tpa=dW5pb25faWQ9MTAzNTY1XzEwMDAwMV8wMV8wMQ" target="_blank" rel="external">我的机器人女友</a>  ，<a href="http://v.youku.com/v_show/id_XMTQxOTY4NTk2OA==.html" target="_blank" rel="external">机器人总动员</a>。第一部动漫电影就献给了它，记忆犹新。叙叙吧…</p>
+<p>假设你设计了一款机器人，高级智能的机器人。如果要你来设定他跟这个世界的第一次交互，会不会是，“Hello World！”呢。第一次读的时候，总感觉就是机器人的见面语，自己还脑补了各种画面，比如撸啊撸的<code>布里茨</code>， <a href="http://v.youku.com/v_show/id_XNjI4NzA5NzY4.html?tpa=dW5pb25faWQ9MTAzNTY1XzEwMDAwMV8wMV8wMQ" target="_blank" rel="external">我的女友是机器人</a>  ，<a href="http://v.youku.com/v_show/id_XMTQxOTY4NTk2OA==.html" target="_blank" rel="external">机器人总动员</a>。第一部动漫电影就献给了它，记忆犹新。叙叙吧…</p>
 </blockquote>
 <p>公元2805年，人类文明高度发展，却因污染和生活垃圾大量增加使得地球不再适于人类居住。地球人被迫乘坐飞船离开故乡，进行一次漫长的宇宙旅行。</p>
 <p>瓦力就是那个被丢在地球上清理垃圾的机器人，日复一日，年复一年，700年里，它慢慢开始拥有了自己的意识。它喜欢将收集来的宝贝小心翼翼藏起，喜欢收工后看看几百年前的歌舞片，此外还有一只蟑螂朋友作伴。直到有一天，一艘来自宇宙的飞船打破了它一成不变的生活。最高科技的代表，身怀绝技且温润高雅的伊娃出现在他孤独的生命里。</p>
