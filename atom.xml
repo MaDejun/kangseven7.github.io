@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.kseven.me/"/>
-  <updated>2016-08-29T10:35:28.127Z</updated>
+  <updated>2016-08-29T10:35:28.000Z</updated>
   <id>http://www.kseven.me/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.kseven.me/2016/Haroopad/"/>
     <id>http://www.kseven.me/2016/Haroopad/</id>
     <published>2016-08-27T17:08:40.000Z</published>
-    <updated>2016-08-29T10:35:28.127Z</updated>
+    <updated>2016-08-29T10:35:28.000Z</updated>
     
     <content type="html"><![CDATA[<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 100%;"><img src="https://oc47w16ru.qnssl.com/2254808-1d13106c8dd64ca7.png" alt="markdown"></div></div><div class="group-picture-row"></div></div></div>
 <p>经常写技术文档，需要将文档像代码一样管理，例如可以提交SVN或者GIT，可以比对历史差异。用WORD之类的工具，文档不是纯文本，没法满足需求。用简单文本没有格式不美观。Latex最强大，但是对于一般文档撰写又太重量，配置一个好的模板太费神，而且标记有些复杂不好记。</p>
@@ -108,7 +108,7 @@
     <link href="http://www.kseven.me/2016/Graphics-Gallery/"/>
     <id>http://www.kseven.me/2016/Graphics-Gallery/</id>
     <published>2016-08-27T14:23:04.000Z</published>
-    <updated>2016-08-29T10:37:16.577Z</updated>
+    <updated>2016-08-29T10:37:16.000Z</updated>
     
     <content type="html"><![CDATA[<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 100%;"><img src="https://oc47w16ru.qnssl.com/20160808_232000-01.jpeg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="https://oc47w16ru.qnssl.com/20160805_191910.jpg" alt=""></div><div class="group-picture-column" style="width: 50%;"><img src="https://oc47w16ru.qnssl.com/20160805_190825-01.jpeg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="https://oc47w16ru.qnssl.com/20160805_190644.jpg" alt=""></div><div class="group-picture-column" style="width: 50%;"><img src="https://oc47w16ru.qnssl.com/20160709_235217.jpg" alt=""></div></div></div></div>]]></content>
     
@@ -136,7 +136,7 @@
     <link href="http://www.kseven.me/2016/Fork-Hello-World/"/>
     <id>http://www.kseven.me/2016/Fork-Hello-World/</id>
     <published>2016-08-26T18:12:40.000Z</published>
-    <updated>2016-08-29T10:33:41.918Z</updated>
+    <updated>2016-08-29T10:33:41.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote class="blockquote-center"><h3 style="font-weight:500">Hello World  或者说 你好，世界。 </h3></blockquote>
 <h3 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World."></a>Hello World.</h3><p>这是学编程的第一个语句，一个个字母敲入，编译，运行，在屏幕上看到这行字时，内心是多么多么激动！</p>
