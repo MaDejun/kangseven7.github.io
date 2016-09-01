@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://www.kseven.me/2016/%E6%94%BE%E7%BE%8A%E5%92%8C%E7%A0%8D%E6%9F%B4%E7%9A%84%E6%95%85%E4%BA%8B/</loc>
-    <lastmod>2016-08-31T13:29:42.872Z</lastmod>
+    <lastmod>2016-09-01T09:20:06.960Z</lastmod>
     <data>
         <display>
         <title>放羊和砍柴的故事</title>
@@ -13,18 +13,74 @@
         
         <tag>随想</tag>
          
-        <tag>撩事达人</tag>
+        <tag>叙事高手</tag>
          
         <tag>原作</tag>
          
-        <tag>羊跑了鸡汤还要吗</tag>
-         
         <tag>朋友圈</tag>
+         
+        <tag>羊没了鸡汤还要吗</tag>
          
          
            
              
-              <breadCrumb title="撩事达人" url="http://www.kseven.me/categories/%E6%92%A9%E4%BA%8B%E8%BE%BE%E4%BA%BA/"/>
+              <breadCrumb title="叙事高手" url="http://www.kseven.me/categories/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.kseven.me/2016/JavaScrip-ECMAScript-6-%E5%85%A5%E9%97%A8/</loc>
+    <lastmod>2016-09-01T07:58:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>JavaScrip ECMAScript 6 入门</title>
+        <pubTime>2016-09-01T06:58:22.000Z</pubTime>
+        
+        <tag>整理</tag>
+         
+        <tag>JavaScrip</tag>
+         
+        <tag>转载</tag>
+         
+        <tag>ES 6</tag>
+         
+        <tag>文档</tag>
+         
+         
+           
+             
+              <breadCrumb title="JavaScrip" url="http://www.kseven.me/categories/JavaScrip/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.kseven.me/2016/Hexo%E6%96%87%E6%A1%A3/</loc>
+    <lastmod>2016-09-01T07:26:47.801Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo文档，管理自己的博客</title>
+        <pubTime>2016-09-01T05:05:08.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>博客</tag>
+         
+        <tag>Next</tag>
+         
+        <tag>整理</tag>
+         
+        <tag>配置</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://www.kseven.me/categories/Hexo/"/>
           
         </display>
     </data>
@@ -33,7 +89,7 @@
     
   <url>
     <loc>http://www.kseven.me/2016/Fork-Hello-World/</loc>
-    <lastmod>2016-08-31T11:56:44.252Z</lastmod>
+    <lastmod>2016-09-01T06:59:11.941Z</lastmod>
     <data>
         <display>
         <title>Fork && Hello World.</title>
@@ -41,7 +97,7 @@
         
         <tag>随想</tag>
          
-        <tag>撩事达人</tag>
+        <tag>叙事高手</tag>
          
         <tag>心灵鸡汤</tag>
          
@@ -50,7 +106,35 @@
          
            
              
-              <breadCrumb title="灵魂收割机" url="http://www.kseven.me/categories/%E7%81%B5%E9%AD%82%E6%94%B6%E5%89%B2%E6%9C%BA/"/>
+              <breadCrumb title="叙事高手" url="http://www.kseven.me/categories/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.kseven.me/2016/Haroopad/</loc>
+    <lastmod>2016-09-01T05:20:20.000Z</lastmod>
+    <data>
+        <display>
+        <title>跨平台轻量级离线markdown编辑器Haroopad</title>
+        <pubTime>2016-08-27T17:08:40.000Z</pubTime>
+        
+        <tag>整理</tag>
+         
+        <tag>Haroopad</tag>
+         
+        <tag>编辑器</tag>
+         
+        <tag>Linux</tag>
+         
+        <tag>转载</tag>
+         
+         
+           
+             
+              <breadCrumb title="前端工具" url="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/"/>
           
         </display>
     </data>
@@ -77,34 +161,6 @@
            
              
               <breadCrumb title="图形相册" url="http://www.kseven.me/categories/%E5%9B%BE%E5%BD%A2%E7%9B%B8%E5%86%8C/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.kseven.me/2016/Haroopad/</loc>
-    <lastmod>2016-08-30T23:30:00.749Z</lastmod>
-    <data>
-        <display>
-        <title>跨平台轻量级离线markdown编辑器Haroopad</title>
-        <pubTime>2016-08-27T17:08:40.000Z</pubTime>
-        
-        <tag>Haroopad</tag>
-         
-        <tag>编辑器</tag>
-         
-        <tag>Linux</tag>
-         
-        <tag>整理</tag>
-         
-        <tag>转载</tag>
-         
-         
-           
-             
-              <breadCrumb title="前端工具" url="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/"/>
           
         </display>
     </data>
