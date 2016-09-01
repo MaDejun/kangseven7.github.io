@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.kseven.me/2016/this-onclick/</loc>
+    
+    <lastmod>2016-09-01T17:08:00.412Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.kseven.me/2016/Hexo-file/</loc>
     
     <lastmod>2016-09-01T16:50:53.167Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>http://www.kseven.me/about/index.html</loc>
     
     <lastmod>2016-09-01T16:12:48.789Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.kseven.me/2016/this-onclick/</loc>
-    
-    <lastmod>2016-09-01T15:49:28.357Z</lastmod>
     
   </url>
   

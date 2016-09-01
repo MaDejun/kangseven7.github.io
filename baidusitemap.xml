@@ -4,6 +4,34 @@
 
     
   <url>
+    <loc>http://www.kseven.me/2016/this-onclick/</loc>
+    <lastmod>2016-09-01T17:08:00.412Z</lastmod>
+    <data>
+        <display>
+        <title>事件处理中的this:attachEvent, addEventListener, onclick</title>
+        <pubTime>2016-09-01T12:01:49.000Z</pubTime>
+        
+        <tag>整理</tag>
+         
+        <tag>DOM</tag>
+         
+        <tag>JavaScript</tag>
+         
+        <tag>jQuery</tag>
+         
+        <tag>事件</tag>
+         
+         
+           
+             
+              <breadCrumb title="JavaScript" url="http://www.kseven.me/categories/JavaScript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.kseven.me/2016/Hexo-file/</loc>
     <lastmod>2016-09-01T16:50:53.167Z</lastmod>
     <data>
@@ -115,34 +143,6 @@
     
     
   <url>
-    <loc>http://www.kseven.me/2016/this-onclick/</loc>
-    <lastmod>2016-09-01T15:49:28.357Z</lastmod>
-    <data>
-        <display>
-        <title>事件处理中的this:attachEvent, addEventListener, onclick</title>
-        <pubTime>2016-09-01T12:01:49.000Z</pubTime>
-        
-        <tag>整理</tag>
-         
-        <tag>DOM</tag>
-         
-        <tag>JavaScript</tag>
-         
-        <tag>jQuery</tag>
-         
-        <tag>事件</tag>
-         
-         
-           
-             
-              <breadCrumb title="JavaScript" url="http://www.kseven.me/categories/JavaScript/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://www.kseven.me/2016/JavaScrip-ES6/</loc>
     <lastmod>2016-09-01T07:58:22.000Z</lastmod>
     <data>
@@ -156,14 +156,14 @@
          
         <tag>文档</tag>
          
-        <tag>JavaScrip</tag>
+        <tag>JavaScript</tag>
          
         <tag>ES 6</tag>
          
          
            
              
-              <breadCrumb title="JavaScrip" url="http://www.kseven.me/categories/JavaScrip/"/>
+              <breadCrumb title="JavaScript" url="http://www.kseven.me/categories/JavaScript/"/>
           
         </display>
     </data>
