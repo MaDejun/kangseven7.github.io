@@ -73,6 +73,8 @@
       <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
+      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
       <category term="DOM" scheme="http://www.kseven.me/tags/DOM/"/>
     
       <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
@@ -80,8 +82,6 @@
       <category term="jQuery" scheme="http://www.kseven.me/tags/jQuery/"/>
     
       <category term="事件" scheme="http://www.kseven.me/tags/%E4%BA%8B%E4%BB%B6/"/>
-    
-      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -4845,11 +4845,11 @@
       <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
+      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
       <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
     
       <category term="ES 6" scheme="http://www.kseven.me/tags/ES-6/"/>
-    
-      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
       <category term="入门文档" scheme="http://www.kseven.me/tags/%E5%85%A5%E9%97%A8%E6%96%87%E6%A1%A3/"/>
     
@@ -5235,9 +5235,9 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
     
       <category term="Hexo" scheme="http://www.kseven.me/tags/Hexo/"/>
     
-      <category term="Next" scheme="http://www.kseven.me/tags/Next/"/>
-    
       <category term="博客搭建" scheme="http://www.kseven.me/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="Next" scheme="http://www.kseven.me/tags/Next/"/>
     
       <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
@@ -5314,13 +5314,13 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
       <category term="叙事高手" scheme="http://www.kseven.me/categories/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
     
     
+      <category term="随想笔记" scheme="http://www.kseven.me/tags/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
+    
       <category term="叙事高手" scheme="http://www.kseven.me/tags/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
     
       <category term="羊没了鸡汤还要吗" scheme="http://www.kseven.me/tags/%E7%BE%8A%E6%B2%A1%E4%BA%86%E9%B8%A1%E6%B1%A4%E8%BF%98%E8%A6%81%E5%90%97/"/>
     
       <category term="朋友圈" scheme="http://www.kseven.me/tags/%E6%9C%8B%E5%8F%8B%E5%9C%88/"/>
-    
-      <category term="随想笔记" scheme="http://www.kseven.me/tags/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -5480,11 +5480,11 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
       <category term="随想笔记" scheme="http://www.kseven.me/categories/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
     
     
+      <category term="随想笔记" scheme="http://www.kseven.me/tags/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
+    
       <category term="叙事高手" scheme="http://www.kseven.me/tags/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
     
       <category term="心灵鸡汤" scheme="http://www.kseven.me/tags/%E5%BF%83%E7%81%B5%E9%B8%A1%E6%B1%A4/"/>
-    
-      <category term="随想笔记" scheme="http://www.kseven.me/tags/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
