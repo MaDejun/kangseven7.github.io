@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.kseven.me/"/>
-  <updated>2016-09-01T17:08:00.412Z</updated>
+  <updated>2016-09-02T06:05:56.956Z</updated>
   <id>http://www.kseven.me/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.kseven.me/2016/this-onclick/"/>
     <id>http://www.kseven.me/2016/this-onclick/</id>
     <published>2016-09-01T12:01:49.000Z</published>
-    <updated>2016-09-01T17:08:00.412Z</updated>
+    <updated>2016-09-02T06:05:56.956Z</updated>
     
     <content type="html"><![CDATA[<p>事件处理函数中，我们通常使用<code>this</code>来获取当前被操作的对象。这无疑是很方便的一个特性， 但对于不同的事件绑定方式，<code>this</code>可能不一定是当前被操作的对象。 本文便来分析不同的方式绑定事件处理函数时，函数中<code>this</code>的区别。常见的事件绑定方式不外乎4种：<br><a id="more"></a></p>
 <ol>
@@ -70,10 +70,8 @@
     
     </summary>
     
-      <category term="JavaScript" scheme="http://www.kseven.me/categories/JavaScript/"/>
+      <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
-    
-      <category term="整理" scheme="http://www.kseven.me/tags/%E6%95%B4%E7%90%86/"/>
     
       <category term="DOM" scheme="http://www.kseven.me/tags/DOM/"/>
     
@@ -83,10 +81,12 @@
     
       <category term="事件" scheme="http://www.kseven.me/tags/%E4%BA%8B%E4%BB%B6/"/>
     
+      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
   </entry>
   
   <entry>
-    <title>JavaScrip ECMAScript 6 入门</title>
+    <title>JavaScript ECMAScript 6 入门</title>
     <link href="http://www.kseven.me/2016/JavaScrip-ES6/"/>
     <id>http://www.kseven.me/2016/JavaScrip-ES6/</id>
     <published>2016-09-01T06:58:22.000Z</published>
@@ -4842,18 +4842,16 @@
     
     </summary>
     
-      <category term="JavaScript" scheme="http://www.kseven.me/categories/JavaScript/"/>
+      <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
-    
-      <category term="整理" scheme="http://www.kseven.me/tags/%E6%95%B4%E7%90%86/"/>
-    
-      <category term="转载" scheme="http://www.kseven.me/tags/%E8%BD%AC%E8%BD%BD/"/>
-    
-      <category term="文档" scheme="http://www.kseven.me/tags/%E6%96%87%E6%A1%A3/"/>
     
       <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
     
       <category term="ES 6" scheme="http://www.kseven.me/tags/ES-6/"/>
+    
+      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="入门文档" scheme="http://www.kseven.me/tags/%E5%85%A5%E9%97%A8%E6%96%87%E6%A1%A3/"/>
     
   </entry>
   
@@ -4862,7 +4860,7 @@
     <link href="http://www.kseven.me/2016/Hexo-file/"/>
     <id>http://www.kseven.me/2016/Hexo-file/</id>
     <published>2016-09-01T05:05:08.000Z</published>
-    <updated>2016-09-01T16:50:53.167Z</updated>
+    <updated>2016-09-02T06:05:15.027Z</updated>
     
     <content type="html"><![CDATA[<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 100%;"><img src="https://oc47w16ru.qnssl.com/57b475e4cfc0f.png" alt="hello world"></div></div><div class="group-picture-row"></div></div></div>
 <h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a><a href="https://github.com/hexojs/hexo" target="_blank" rel="external">Hexo</a></h2><p>hexo是一款基于Node.js的<strong>静态</strong>博客框架。</p>
@@ -5232,20 +5230,16 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
     
     </summary>
     
-      <category term="Hexo" scheme="http://www.kseven.me/categories/Hexo/"/>
+      <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
-    
-      <category term="原作" scheme="http://www.kseven.me/tags/%E5%8E%9F%E4%BD%9C/"/>
-    
-      <category term="整理" scheme="http://www.kseven.me/tags/%E6%95%B4%E7%90%86/"/>
     
       <category term="Hexo" scheme="http://www.kseven.me/tags/Hexo/"/>
     
-      <category term="博客" scheme="http://www.kseven.me/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
       <category term="Next" scheme="http://www.kseven.me/tags/Next/"/>
     
-      <category term="文档" scheme="http://www.kseven.me/tags/%E6%96%87%E6%A1%A3/"/>
+      <category term="博客搭建" scheme="http://www.kseven.me/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -5254,7 +5248,7 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
     <link href="http://www.kseven.me/2016/Sheep-and-firewood-story/"/>
     <id>http://www.kseven.me/2016/Sheep-and-firewood-story/</id>
     <published>2016-08-30T22:32:37.000Z</published>
-    <updated>2016-09-01T16:49:30.682Z</updated>
+    <updated>2016-09-02T06:05:44.268Z</updated>
     
     <content type="html"><![CDATA[<blockquote class="blockquote-center"><h3 style="font-weight:500">他的羊跑了，你的鸡汤还要吗？</h3></blockquote>
 <div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 100%;"><img src="https://oc47w16ru.qnssl.com/timg-01-02-02.jpeg" alt="hello world"></div></div><div class="group-picture-row"></div></div></div>
@@ -5320,15 +5314,13 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
       <category term="叙事高手" scheme="http://www.kseven.me/categories/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
     
     
-      <category term="随想" scheme="http://www.kseven.me/tags/%E9%9A%8F%E6%83%B3/"/>
-    
       <category term="叙事高手" scheme="http://www.kseven.me/tags/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
-    
-      <category term="原作" scheme="http://www.kseven.me/tags/%E5%8E%9F%E4%BD%9C/"/>
     
       <category term="羊没了鸡汤还要吗" scheme="http://www.kseven.me/tags/%E7%BE%8A%E6%B2%A1%E4%BA%86%E9%B8%A1%E6%B1%A4%E8%BF%98%E8%A6%81%E5%90%97/"/>
     
       <category term="朋友圈" scheme="http://www.kseven.me/tags/%E6%9C%8B%E5%8F%8B%E5%9C%88/"/>
+    
+      <category term="随想笔记" scheme="http://www.kseven.me/tags/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -5414,9 +5406,7 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
     
       <category term="Linux" scheme="http://www.kseven.me/tags/Linux/"/>
     
-      <category term="整理" scheme="http://www.kseven.me/tags/%E6%95%B4%E7%90%86/"/>
-    
-      <category term="转载" scheme="http://www.kseven.me/tags/%E8%BD%AC%E8%BD%BD/"/>
+      <category term="前端工具" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
@@ -5425,7 +5415,7 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
     <link href="http://www.kseven.me/2016/Graphics-Gallery/"/>
     <id>http://www.kseven.me/2016/Graphics-Gallery/</id>
     <published>2016-08-27T14:23:04.000Z</published>
-    <updated>2016-09-01T16:47:47.577Z</updated>
+    <updated>2016-09-02T06:04:42.822Z</updated>
     
     <content type="html"><![CDATA[<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 100%;"><img src="https://oc47w16ru.qnssl.com/20160808_232000-01.jpeg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="https://oc47w16ru.qnssl.com/20160805_191910.jpg" alt=""></div><div class="group-picture-column" style="width: 50%;"><img src="https://oc47w16ru.qnssl.com/20160805_190825-01.jpeg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="https://oc47w16ru.qnssl.com/20160805_190644.jpg" alt=""></div><div class="group-picture-column" style="width: 50%;"><img src="https://oc47w16ru.qnssl.com/20160709_235217.jpg" alt=""></div></div></div></div>
 <blockquote class="blockquote-center"><p>此图片为原作，转载请注明出处：<br><a href="http://kseven.me/2016/Graphics-Gallery/" target="_blank" rel="external">http://kseven.me/2016/Graphics-Gallery/</a></p>
@@ -5440,8 +5430,6 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
       <category term="图形相册" scheme="http://www.kseven.me/categories/%E5%9B%BE%E5%BD%A2%E7%9B%B8%E5%86%8C/"/>
     
     
-      <category term="原作" scheme="http://www.kseven.me/tags/%E5%8E%9F%E4%BD%9C/"/>
-    
       <category term="生活圈" scheme="http://www.kseven.me/tags/%E7%94%9F%E6%B4%BB%E5%9C%88/"/>
     
       <category term="美图欣赏" scheme="http://www.kseven.me/tags/%E7%BE%8E%E5%9B%BE%E6%AC%A3%E8%B5%8F/"/>
@@ -5455,7 +5443,7 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
     <link href="http://www.kseven.me/2016/Fork-Hello-World/"/>
     <id>http://www.kseven.me/2016/Fork-Hello-World/</id>
     <published>2016-08-26T18:12:40.000Z</published>
-    <updated>2016-09-01T16:48:16.565Z</updated>
+    <updated>2016-09-02T06:04:33.278Z</updated>
     
     <content type="html"><![CDATA[<blockquote class="blockquote-center"><h3 style="font-weight:500">Hello World  或者说 你好，世界。 </h3></blockquote>
 <h3 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World."></a>Hello World.</h3><p>这是学编程的第一个语句，一个个字母敲入，编译，运行，在屏幕上看到这行字时，内心是多么多么激动！</p>
@@ -5489,16 +5477,14 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
     
     </summary>
     
-      <category term="叙事高手" scheme="http://www.kseven.me/categories/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
+      <category term="随想笔记" scheme="http://www.kseven.me/categories/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
     
-    
-      <category term="随想" scheme="http://www.kseven.me/tags/%E9%9A%8F%E6%83%B3/"/>
     
       <category term="叙事高手" scheme="http://www.kseven.me/tags/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
     
       <category term="心灵鸡汤" scheme="http://www.kseven.me/tags/%E5%BF%83%E7%81%B5%E9%B8%A1%E6%B1%A4/"/>
     
-      <category term="原作" scheme="http://www.kseven.me/tags/%E5%8E%9F%E4%BD%9C/"/>
+      <category term="随想笔记" scheme="http://www.kseven.me/tags/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
