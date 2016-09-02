@@ -4,6 +4,30 @@
 
     
   <url>
+    <loc>http://www.kseven.me/2016/Fork-Hello-World/</loc>
+    <lastmod>2016-09-02T08:50:35.436Z</lastmod>
+    <data>
+        <display>
+        <title>Fork && Hello World.</title>
+        <pubTime>2016-08-26T18:12:40.000Z</pubTime>
+        
+        <tag>随想笔记</tag>
+         
+        <tag>叙事高手</tag>
+         
+        <tag>心灵鸡汤</tag>
+         
+         
+           
+             
+              <breadCrumb title="随想笔记" url="http://www.kseven.me/categories/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.kseven.me/2016/this-onclick/</loc>
     <lastmod>2016-09-02T06:05:56.956Z</lastmod>
     <data>
@@ -11,8 +35,6 @@
         <title>事件处理中的this:attachEvent, addEventListener, onclick</title>
         <pubTime>2016-09-01T12:01:49.000Z</pubTime>
         
-        <tag>前端笔记</tag>
-         
         <tag>DOM</tag>
          
         <tag>JavaScript</tag>
@@ -20,6 +42,8 @@
         <tag>jQuery</tag>
          
         <tag>事件</tag>
+         
+        <tag>前端笔记</tag>
          
          
            
@@ -65,13 +89,13 @@
         <title>Hexo文档，管理自己的博客</title>
         <pubTime>2016-09-01T05:05:08.000Z</pubTime>
         
+        <tag>前端笔记</tag>
+         
         <tag>Hexo</tag>
          
         <tag>博客搭建</tag>
          
         <tag>Next</tag>
-         
-        <tag>前端笔记</tag>
          
          
            
@@ -107,30 +131,6 @@
     </url>
 
     
-  <url>
-    <loc>http://www.kseven.me/2016/Fork-Hello-World/</loc>
-    <lastmod>2016-09-02T06:04:33.278Z</lastmod>
-    <data>
-        <display>
-        <title>Fork && Hello World.</title>
-        <pubTime>2016-08-26T18:12:40.000Z</pubTime>
-        
-        <tag>随想笔记</tag>
-         
-        <tag>叙事高手</tag>
-         
-        <tag>心灵鸡汤</tag>
-         
-         
-           
-             
-              <breadCrumb title="随想笔记" url="http://www.kseven.me/categories/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
     
   <url>
     <loc>http://www.kseven.me/2016/JavaScrip-ES6/</loc>
@@ -140,9 +140,9 @@
         <title>JavaScript ECMAScript 6 入门</title>
         <pubTime>2016-09-01T06:58:22.000Z</pubTime>
         
-        <tag>前端笔记</tag>
-         
         <tag>JavaScript</tag>
+         
+        <tag>前端笔记</tag>
          
         <tag>ES 6</tag>
          
