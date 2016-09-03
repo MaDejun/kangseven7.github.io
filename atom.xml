@@ -73,6 +73,8 @@
       <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
+      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
       <category term="DOM" scheme="http://www.kseven.me/tags/DOM/"/>
     
       <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
@@ -80,8 +82,6 @@
       <category term="jQuery" scheme="http://www.kseven.me/tags/jQuery/"/>
     
       <category term="事件" scheme="http://www.kseven.me/tags/%E4%BA%8B%E4%BB%B6/"/>
-    
-      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -4845,9 +4845,9 @@
       <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
-    
       <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
     
       <category term="ES 6" scheme="http://www.kseven.me/tags/ES-6/"/>
     
@@ -5233,13 +5233,13 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
       <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
-    
       <category term="Hexo" scheme="http://www.kseven.me/tags/Hexo/"/>
     
       <category term="博客搭建" scheme="http://www.kseven.me/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
       <category term="Next" scheme="http://www.kseven.me/tags/Next/"/>
+    
+      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -5443,7 +5443,7 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
     <link href="http://www.kseven.me/2016/Fork-Hello-World/"/>
     <id>http://www.kseven.me/2016/Fork-Hello-World/</id>
     <published>2016-08-26T18:12:40.000Z</published>
-    <updated>2016-09-02T08:50:35.436Z</updated>
+    <updated>2016-09-02T08:56:42.197Z</updated>
     
     <content type="html"><![CDATA[<blockquote class="blockquote-center"><h3 style="font-weight:500">Hello World  或者说 你好，世界。 </h3></blockquote>
 <h3 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World."></a>Hello World.</h3><p>这是学编程的第一个语句，一个个字母敲入，编译，运行，在屏幕上看到这行字时，内心是多么多么激动！</p>

@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://www.kseven.me/2016/Fork-Hello-World/</loc>
-    <lastmod>2016-09-02T08:50:35.436Z</lastmod>
+    <lastmod>2016-09-02T08:56:42.197Z</lastmod>
     <data>
         <display>
         <title>Fork && Hello World.</title>
@@ -35,6 +35,8 @@
         <title>事件处理中的this:attachEvent, addEventListener, onclick</title>
         <pubTime>2016-09-01T12:01:49.000Z</pubTime>
         
+        <tag>前端笔记</tag>
+         
         <tag>DOM</tag>
          
         <tag>JavaScript</tag>
@@ -42,8 +44,6 @@
         <tag>jQuery</tag>
          
         <tag>事件</tag>
-         
-        <tag>前端笔记</tag>
          
          
            
@@ -89,13 +89,13 @@
         <title>Hexo文档，管理自己的博客</title>
         <pubTime>2016-09-01T05:05:08.000Z</pubTime>
         
-        <tag>前端笔记</tag>
-         
         <tag>Hexo</tag>
          
         <tag>博客搭建</tag>
          
         <tag>Next</tag>
+         
+        <tag>前端笔记</tag>
          
          
            
@@ -140,9 +140,9 @@
         <title>JavaScript ECMAScript 6 入门</title>
         <pubTime>2016-09-01T06:58:22.000Z</pubTime>
         
-        <tag>JavaScript</tag>
-         
         <tag>前端笔记</tag>
+         
+        <tag>JavaScript</tag>
          
         <tag>ES 6</tag>
          
