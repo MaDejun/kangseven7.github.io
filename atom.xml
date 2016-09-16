@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.kseven.me/"/>
-  <updated>2016-09-12T16:51:51.426Z</updated>
+  <updated>2016-09-16T13:58:33.257Z</updated>
   <id>http://www.kseven.me/</id>
   
   <author>
@@ -14,6 +14,125 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaScript快速入门（数组）</title>
+    <link href="http://www.kseven.me/2016/Array/"/>
+    <id>http://www.kseven.me/2016/Array/</id>
+    <published>2016-09-16T15:43:00.000Z</published>
+    <updated>2016-09-16T13:58:33.257Z</updated>
+    
+    <content type="html"><![CDATA[<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 100%;"><img src="https://oc47w16ru.qnssl.com/20160916214533.png" alt="linux-command"></div></div><div class="group-picture-row"></div></div></div>
+<h3 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h3><p>JavaScript的<code>Array</code>可以包含任意数据类型，并通过索引来访问每个元素。<br>要取得<code>Array</code>的长度，直接访问<code>length</code>属性：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3.14</span>, <span class="string">'Hello'</span>, <span class="literal">null</span>, <span class="literal">true</span>];</div><div class="line">arr.length; <span class="comment">// 6</span></div></pre></td></tr></table></figure></p>
+<a id="more"></a>
+<p><em>请注意</em>，直接给<code>Array</code>的<code>length</code>赋一个新的值会导致<code>Array</code>大小的变化：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>];</div><div class="line">arr.length; <span class="comment">// 3</span></div><div class="line">arr.length = <span class="number">6</span>;</div><div class="line">arr; <span class="comment">// arr变为[1, 2, 3, undefined, undefined, undefined]</span></div><div class="line">arr.length = <span class="number">2</span>;</div><div class="line">arr; <span class="comment">// arr变为[1, 2]</span></div></pre></td></tr></table></figure>
+<p><code>Array</code>可以通过索引把对应的元素修改为新的值，因此，对<code>Array</code>的索引进行赋值会直接修改这个<code>Array</code>：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="string">'A'</span>, <span class="string">'B'</span>, <span class="string">'C'</span>];</div><div class="line">arr[<span class="number">1</span>] = <span class="number">99</span>;</div><div class="line">arr; <span class="comment">// arr现在变为['A', 99, 'C']</span></div></pre></td></tr></table></figure>
+<p><em>请注意</em>，如果通过索引赋值时，索引超过了范围，同样会引起<code>Array</code>大小的变化：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>];</div><div class="line">arr[<span class="number">5</span>] = <span class="string">'x'</span>;</div><div class="line">arr; <span class="comment">// arr变为[1, 2, 3, undefined, undefined, 'x']</span></div></pre></td></tr></table></figure>
+<p>大多数其他编程语言不允许直接改变数组的大小，越界访问索引会报错。然而，JavaScript的<code>Array</code>却不会有任何错误。在编写代码时，不建议直接修改<code>Array</code>的大小，访问索引时要确保索引不会越界。</p>
+<h3 id="indexOf"><a href="#indexOf" class="headerlink" title="indexOf"></a>indexOf</h3><p>与String类似，<code>Array</code>也可以通过<code>indexOf()</code>来搜索一个指定的元素的位置：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="number">10</span>, <span class="number">20</span>, <span class="string">'30'</span>, <span class="string">'xyz'</span>];</div><div class="line">arr.indexOf(<span class="number">10</span>); <span class="comment">// 元素10的索引为0</span></div><div class="line">arr.indexOf(<span class="number">20</span>); <span class="comment">// 元素20的索引为1</span></div><div class="line">arr.indexOf(<span class="number">30</span>); <span class="comment">// 元素30没有找到，返回-1</span></div><div class="line">arr.indexOf(<span class="string">'30'</span>); <span class="comment">// 元素'30'的索引为2</span></div></pre></td></tr></table></figure>
+<p>注意了，数字<code>30</code>和字符串<code>&#39;30&#39;</code>是不同的元素。</p>
+<h3 id="slice"><a href="#slice" class="headerlink" title="slice"></a>slice</h3><p><code>slice()</code>就是对应String的<code>substring()</code>版本，它截取<code>Array</code>的部分元素，然后返回一个新的<code>Array</code>：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="string">'A'</span>, <span class="string">'B'</span>, <span class="string">'C'</span>, <span class="string">'D'</span>, <span class="string">'E'</span>, <span class="string">'F'</span>, <span class="string">'G'</span>];</div><div class="line">arr.slice(<span class="number">0</span>, <span class="number">3</span>); <span class="comment">// 从索引0开始，到索引3结束，但不包括索引3: ['A', 'B', 'C']</span></div><div class="line">arr.slice(<span class="number">3</span>); <span class="comment">// 从索引3开始到结束: ['D', 'E', 'F', 'G']</span></div></pre></td></tr></table></figure>
+<p>注意到<code>slice()</code>的起止参数包括开始索引，不包括结束索引。<br>如果不给<code>slice()</code>传递任何参数，它就会从头到尾截取所有元素。利用这一点，我们可以很容易地复制一个<code>Array</code>：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="string">'A'</span>, <span class="string">'B'</span>, <span class="string">'C'</span>, <span class="string">'D'</span>, <span class="string">'E'</span>, <span class="string">'F'</span>, <span class="string">'G'</span>];</div><div class="line"><span class="keyword">var</span> aCopy = arr.slice();</div><div class="line">aCopy; <span class="comment">// ['A', 'B', 'C', 'D', 'E', 'F', 'G']</span></div><div class="line">aCopy === arr; <span class="comment">// false</span></div></pre></td></tr></table></figure>
+<h3 id="push和pop"><a href="#push和pop" class="headerlink" title="push和pop"></a>push和pop</h3><p><code>push()</code>向<code>Array</code>的末尾添加若干元素，<code>pop()</code>则把<code>Array</code>的最后一个元素删除掉：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="number">1</span>, <span class="number">2</span>];</div><div class="line">arr.push(<span class="string">'A'</span>, <span class="string">'B'</span>); <span class="comment">// 返回Array新的长度: 4</span></div><div class="line">arr; <span class="comment">// [1, 2, 'A', 'B']</span></div><div class="line">arr.pop(); <span class="comment">// pop()返回'B'</span></div><div class="line">arr; <span class="comment">// [1, 2, 'A']</span></div><div class="line">arr.pop(); arr.pop(); arr.pop(); <span class="comment">// 连续pop 3次</span></div><div class="line">arr; <span class="comment">// []</span></div><div class="line">arr.pop(); <span class="comment">// 空数组继续pop不会报错，而是返回undefined</span></div><div class="line">arr; <span class="comment">// []</span></div></pre></td></tr></table></figure>
+<h3 id="unshift和shift"><a href="#unshift和shift" class="headerlink" title="unshift和shift"></a>unshift和shift</h3><p>如果要往<code>Array</code>的头部添加若干元素，使用<code>unshift()</code>方法，<code>shift()</code>方法则把<code>Array</code>的第一个元素删掉：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="number">1</span>, <span class="number">2</span>];</div><div class="line">arr.unshift(<span class="string">'A'</span>, <span class="string">'B'</span>); <span class="comment">// 返回Array新的长度: 4</span></div><div class="line">arr; <span class="comment">// ['A', 'B', 1, 2]</span></div><div class="line">arr.shift(); <span class="comment">// 'A'</span></div><div class="line">arr; <span class="comment">// ['B', 1, 2]</span></div><div class="line">arr.shift(); arr.shift(); arr.shift(); <span class="comment">// 连续shift 3次</span></div><div class="line">arr; <span class="comment">// []</span></div><div class="line">arr.shift(); <span class="comment">// 空数组继续shift不会报错，而是返回undefined</span></div><div class="line">arr; <span class="comment">// []</span></div></pre></td></tr></table></figure>
+<h3 id="sort"><a href="#sort" class="headerlink" title="sort"></a>sort</h3><p><code>sort()</code>可以对当前<code>Array</code>进行排序，它会直接修改当前<code>Array</code>的元素位置，直接调用时，按照默认顺序排序：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="string">'B'</span>, <span class="string">'C'</span>, <span class="string">'A'</span>];</div><div class="line">arr.sort();</div><div class="line">arr; <span class="comment">// ['A', 'B', 'C']</span></div></pre></td></tr></table></figure>
+<p>能否按照我们自己指定的顺序排序呢？完全可以，我们将在后面的函数中讲到。</p>
+<h3 id="reverse"><a href="#reverse" class="headerlink" title="reverse"></a>reverse</h3><p><code>reverse()</code>把整个<code>Array</code>的元素给掉个个，也就是反转：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="string">'one'</span>, <span class="string">'two'</span>, <span class="string">'three'</span>];</div><div class="line">arr.reverse(); </div><div class="line">arr; <span class="comment">// ['three', 'two', 'one']</span></div></pre></td></tr></table></figure>
+<h3 id="splice"><a href="#splice" class="headerlink" title="splice"></a>splice</h3><p><code>splice()</code>方法是修改<code>Array</code>的“万能方法”，它可以从指定的索引开始删除若干元素，然后再从该位置添加若干元素：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="string">'Microsoft'</span>, <span class="string">'Apple'</span>, <span class="string">'Yahoo'</span>, <span class="string">'AOL'</span>, <span class="string">'Excite'</span>, <span class="string">'Oracle'</span>];</div><div class="line"><span class="comment">// 从索引2开始删除3个元素,然后再添加两个元素:</span></div><div class="line">arr.splice(<span class="number">2</span>, <span class="number">3</span>, <span class="string">'Google'</span>, <span class="string">'Facebook'</span>); <span class="comment">// 返回删除的元素 ['Yahoo', 'AOL', 'Excite']</span></div><div class="line">arr; <span class="comment">// ['Microsoft', 'Apple', 'Google', 'Facebook', 'Oracle']</span></div><div class="line"><span class="comment">// 只删除,不添加:</span></div><div class="line">arr.splice(<span class="number">2</span>, <span class="number">2</span>); <span class="comment">// ['Google', 'Facebook']</span></div><div class="line">arr; <span class="comment">// ['Microsoft', 'Apple', 'Oracle']</span></div><div class="line"><span class="comment">// 只添加,不删除:</span></div><div class="line">arr.splice(<span class="number">2</span>, <span class="number">0</span>, <span class="string">'Google'</span>, <span class="string">'Facebook'</span>); <span class="comment">// 返回[],因为没有删除任何元素</span></div><div class="line">arr; <span class="comment">// ['Microsoft', 'Apple', 'Google', 'Facebook', 'Oracle']</span></div></pre></td></tr></table></figure>
+<h3 id="concat"><a href="#concat" class="headerlink" title="concat"></a>concat</h3><p><code>concat()</code>方法把当前的<code>Array</code>和另一个<code>Array</code>连接起来，并返回一个新的<code>Array</code>：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="string">'A'</span>, <span class="string">'B'</span>, <span class="string">'C'</span>];</div><div class="line"><span class="keyword">var</span> added = arr.concat([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]);</div><div class="line">added; <span class="comment">// ['A', 'B', 'C', 1, 2, 3]</span></div><div class="line">arr; <span class="comment">// ['A', 'B', 'C']</span></div></pre></td></tr></table></figure>
+<p><em>请注意</em>，<code>concat()</code>方法并没有修改当前<code>Array</code>，而是返回了一个新的<code>Array</code>。<br>实际上，<code>concat()</code>方法可以接收任意个元素和<code>Array</code>，并且自动把<code>Array</code>拆开，然后全部添加到新的<code>Array</code>里：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="string">'A'</span>, <span class="string">'B'</span>, <span class="string">'C'</span>];</div><div class="line">arr.concat(<span class="number">1</span>, <span class="number">2</span>, [<span class="number">3</span>, <span class="number">4</span>]); <span class="comment">// ['A', 'B', 'C', 1, 2, 3, 4]</span></div></pre></td></tr></table></figure>
+<h3 id="join"><a href="#join" class="headerlink" title="join"></a>join</h3><p><code>join()</code>方法是一个非常实用的方法，它把当前<code>Array</code>的每个元素都用指定的字符串连接起来，然后返回连接后的字符串：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="string">'A'</span>, <span class="string">'B'</span>, <span class="string">'C'</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>];</div><div class="line">arr.join(<span class="string">'-'</span>); <span class="comment">// 'A-B-C-1-2-3'</span></div></pre></td></tr></table></figure>
+<p>如果<code>Array</code>的元素不是字符串，将自动转换为字符串后再连接。</p>
+<h3 id="多维数组"><a href="#多维数组" class="headerlink" title="多维数组"></a>多维数组</h3><p>如果数组的某个元素又是一个<code>Array</code>，则可以形成多维数组，例如：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>], [<span class="number">400</span>, <span class="number">500</span>, <span class="number">600</span>], <span class="string">'-'</span>];</div></pre></td></tr></table></figure>
+<p>上述<code>Array</code>包含3个元素，其中头两个元素本身也是<code>Array</code>。</p>
+<blockquote class="blockquote-center"><p>此文章为引用整理:<a href="">引用地址</a><br>转载请注明出处:<a href="http://kseven.me/2016/Array/" target="_blank" rel="external">http://kseven.me/2016/Array/</a></p>
+</blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-container&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot;  style=&quot;width: 100%;&quot;&gt;&lt;img src=&quot;https://oc47w16ru.qnssl.com/20160916214533.png&quot; alt=&quot;linux-command&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;数组&quot;&gt;&lt;a href=&quot;#数组&quot; class=&quot;headerlink&quot; title=&quot;数组&quot;&gt;&lt;/a&gt;数组&lt;/h3&gt;&lt;p&gt;JavaScript的&lt;code&gt;Array&lt;/code&gt;可以包含任意数据类型，并通过索引来访问每个元素。&lt;br&gt;要取得&lt;code&gt;Array&lt;/code&gt;的长度，直接访问&lt;code&gt;length&lt;/code&gt;属性：&lt;br&gt;&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; arr = [&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;3.14&lt;/span&gt;, &lt;span class=&quot;string&quot;&gt;&#39;Hello&#39;&lt;/span&gt;, &lt;span class=&quot;literal&quot;&gt;null&lt;/span&gt;, &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;];&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;arr.length; &lt;span class=&quot;comment&quot;&gt;// 6&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
+    
+      <category term="新手指南" scheme="http://www.kseven.me/tags/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"/>
+    
+      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="数组" scheme="http://www.kseven.me/tags/%E6%95%B0%E7%BB%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript快速入门（对象）</title>
+    <link href="http://www.kseven.me/2016/Objects/"/>
+    <id>http://www.kseven.me/2016/Objects/</id>
+    <published>2016-09-16T14:43:00.000Z</published>
+    <updated>2016-09-16T13:32:58.034Z</updated>
+    
+    <content type="html"><![CDATA[<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 100%;"><img src="https://oc47w16ru.qnssl.com/20160916210358.png" alt="linux-command"></div></div><div class="group-picture-row"></div></div></div>
+<h3 id="对象"><a href="#对象" class="headerlink" title="对象"></a>对象</h3><p>JavaScript的对象是一种无序的集合数据类型，它由若干键值对组成。<br>JavaScript的对象用于描述现实世界中的某个对象。例如，为了描述“小明”这个淘气的小朋友，我们可以用若干键值对来描述他：<br><a id="more"></a><br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> xiaoming = &#123;</div><div class="line">    name: <span class="string">'小明'</span>,</div><div class="line">    birth: <span class="number">1990</span>,</div><div class="line">    school: <span class="string">'No.1 Middle School'</span>,</div><div class="line">    height: <span class="number">1.70</span>,</div><div class="line">    weight: <span class="number">65</span>,</div><div class="line">    score: <span class="literal">null</span></div><div class="line">&#125;;</div></pre></td></tr></table></figure></p>
+<p>JavaScript用一个<code>{...}</code>表示一个对象，键值对以<code>xxx: xxx</code>形式申明，用<code>,</code>隔开。注意，最后一个键值对不需要在末尾加<code>,</code>，如果加了，有的浏览器（如低版本的IE）将报错。</p>
+<p>上述对象申明了一个<code>name</code>属性，值是<code>&#39;小明&#39;</code>，<code>birth</code>属性，值是<code>1990</code>，以及其他一些属性。最后，把这个对象赋值给变量<code>xiaoming</code>后，就可以通过变量<code>xiaoming</code>来获取小明的属性了：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">xiaoming.name; <span class="comment">// '小明'</span></div><div class="line">xiaoming.birth; <span class="comment">// 1990</span></div></pre></td></tr></table></figure></p>
+<p>访问属性是通过<code>.</code>操作符完成的，但这要求属性名必须是一个有效的变量名。如果属性名包含特殊字符，就必须用<code>&#39;&#39;</code>括起来：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> xiaohong = &#123;</div><div class="line">    name: <span class="string">'小红'</span>,</div><div class="line">    <span class="string">'middle-school'</span>: <span class="string">'No.1 Middle School'</span></div><div class="line">&#125;;</div></pre></td></tr></table></figure>
+<p><code>xiaohong</code>的属性名<code>middle-school</code>不是一个有效的变量，就需要用<code>&#39;&#39;</code>括起来。访问这个属性也无法使用<code>.</code>操作符，必须用<code>[&#39;xxx&#39;]</code>来访问：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">xiaohong[<span class="string">'middle-school'</span>]; <span class="comment">// 'No.1 Middle School'</span></div><div class="line">xiaohong[<span class="string">'name'</span>]; <span class="comment">// '小红'</span></div><div class="line">xiaohong.name; <span class="comment">// '小红'</span></div></pre></td></tr></table></figure>
+<p>也可以用<code>xiaohong[&#39;name&#39;]</code>来访问<code>xiaohong</code>的<code>name</code>属性，不过<code>xiaohong.name</code>的写法更简洁。我们在编写JavaScript代码的时候，属性名尽量使用标准的变量名，这样就可以直接通过<code>object.prop</code>的形式访问一个属性了。</p>
+<p>实际上JavaScript对象的所有属性都是字符串，不过属性对应的值可以是任意数据类型。</p>
+<p>如果访问一个不存在的属性会返回什么呢？JavaScript规定，访问不存在的属性不报错，而是返回<code>undefined</code>：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> xiaoming = &#123;</div><div class="line">    name: <span class="string">'小明'</span></div><div class="line">&#125;;</div><div class="line">xiaoming.age; <span class="comment">// undefined</span></div></pre></td></tr></table></figure>
+<p>由于JavaScript的对象是动态类型，你可以自由地给一个对象添加或删除属性：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> xiaoming = &#123;</div><div class="line">    name: <span class="string">'小明'</span></div><div class="line">&#125;;</div><div class="line">xiaoming.age; <span class="comment">// undefined</span></div><div class="line">xiaoming.age = <span class="number">18</span>; <span class="comment">// 新增一个age属性</span></div><div class="line">xiaoming.age; <span class="comment">// 18</span></div><div class="line"><span class="keyword">delete</span> xiaoming.age; <span class="comment">// 删除age属性</span></div><div class="line">xiaoming.age; <span class="comment">// undefined</span></div><div class="line"><span class="keyword">delete</span> xiaoming[<span class="string">'name'</span>]; <span class="comment">// 删除name属性</span></div><div class="line">xiaoming.name; <span class="comment">// undefined</span></div><div class="line"><span class="keyword">delete</span> xiaoming.school; <span class="comment">// 删除一个不存在的school属性也不会报错</span></div></pre></td></tr></table></figure>
+<p>如果我们要检测<code>xiaoming</code>是否拥有某一属性，可以用<code>in</code>操作符：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> xiaoming = &#123;</div><div class="line">    name: <span class="string">'小明'</span>,</div><div class="line">    birth: <span class="number">1990</span>,</div><div class="line">    school: <span class="string">'No.1 Middle School'</span>,</div><div class="line">    height: <span class="number">1.70</span>,</div><div class="line">    weight: <span class="number">65</span>,</div><div class="line">    score: <span class="literal">null</span></div><div class="line">&#125;;</div><div class="line"><span class="string">'name'</span> <span class="keyword">in</span> xiaoming; <span class="comment">// true</span></div><div class="line"><span class="string">'grade'</span> <span class="keyword">in</span> xiaoming; <span class="comment">// false</span></div></pre></td></tr></table></figure>
+<p>不过要小心，如果<code>in</code>判断一个属性存在，这个属性不一定是<code>xiaoming</code>的，它可能是<code>xiaoming</code>继承得到的：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="string">'toString'</span> <span class="keyword">in</span> xiaoming; <span class="comment">// true</span></div></pre></td></tr></table></figure>
+<p>因为<code>toString</code>定义在<code>object</code>对象中，而所有对象最终都会在原型链上指向<code>object</code>，所以<code>xiaoming</code>也拥有<code>toString</code>属性。</p>
+<p>要判断一个属性是否是<code>xiaoming</code>自身拥有的，而不是继承得到的，可以用<code>hasOwnProperty()</code>方法：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> xiaoming = &#123;</div><div class="line">    name: <span class="string">'小明'</span></div><div class="line">&#125;;</div><div class="line">xiaoming.hasOwnProperty(<span class="string">'name'</span>); <span class="comment">// true</span></div><div class="line">xiaoming.hasOwnProperty(<span class="string">'toString'</span>); <span class="comment">// false</span></div></pre></td></tr></table></figure>
+<blockquote class="blockquote-center"><p>此文章为引用整理:<a href="">引用地址</a><br>转载请注明出处:<a href="http://kseven.me/2016/Objects/" target="_blank" rel="external">http://kseven.me/2016/Objects/</a></p>
+</blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-container&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot;  style=&quot;width: 100%;&quot;&gt;&lt;img src=&quot;https://oc47w16ru.qnssl.com/20160916210358.png&quot; alt=&quot;linux-command&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;对象&quot;&gt;&lt;a href=&quot;#对象&quot; class=&quot;headerlink&quot; title=&quot;对象&quot;&gt;&lt;/a&gt;对象&lt;/h3&gt;&lt;p&gt;JavaScript的对象是一种无序的集合数据类型，它由若干键值对组成。&lt;br&gt;JavaScript的对象用于描述现实世界中的某个对象。例如，为了描述“小明”这个淘气的小朋友，我们可以用若干键值对来描述他：&lt;br&gt;
+    
+    </summary>
+    
+      <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
+    
+      <category term="对象" scheme="http://www.kseven.me/tags/%E5%AF%B9%E8%B1%A1/"/>
+    
+      <category term="新手指南" scheme="http://www.kseven.me/tags/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"/>
+    
+      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>新手指南Linux新手应该知道的26个命令</title>
@@ -139,13 +258,13 @@
       <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
+      <category term="新手指南" scheme="http://www.kseven.me/tags/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"/>
+    
       <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
       <category term="Linux" scheme="http://www.kseven.me/tags/Linux/"/>
     
       <category term="命令行" scheme="http://www.kseven.me/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
-    
-      <category term="新手指南" scheme="http://www.kseven.me/tags/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"/>
     
       <category term="终端" scheme="http://www.kseven.me/tags/%E7%BB%88%E7%AB%AF/"/>
     
@@ -197,9 +316,9 @@
       <category term="叙事高手" scheme="http://www.kseven.me/categories/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
     
     
-      <category term="随想笔记" scheme="http://www.kseven.me/tags/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
-    
       <category term="叙事高手" scheme="http://www.kseven.me/tags/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
+    
+      <category term="随想笔记" scheme="http://www.kseven.me/tags/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
     
       <category term="理解孤独" scheme="http://www.kseven.me/tags/%E7%90%86%E8%A7%A3%E5%AD%A4%E7%8B%AC/"/>
     
@@ -263,11 +382,11 @@
       <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
+      <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
+    
       <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
       <category term="DOM" scheme="http://www.kseven.me/tags/DOM/"/>
-    
-      <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
     
       <category term="jQuery" scheme="http://www.kseven.me/tags/jQuery/"/>
     
@@ -5035,9 +5154,9 @@
       <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
-    
       <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
+    
+      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
       <category term="ES 6" scheme="http://www.kseven.me/tags/ES-6/"/>
     
@@ -5423,13 +5542,13 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
       <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
+      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
       <category term="Hexo" scheme="http://www.kseven.me/tags/Hexo/"/>
     
       <category term="博客搭建" scheme="http://www.kseven.me/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
       <category term="Next" scheme="http://www.kseven.me/tags/Next/"/>
-    
-      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -5504,11 +5623,11 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
       <category term="叙事高手" scheme="http://www.kseven.me/categories/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
     
     
-      <category term="随想笔记" scheme="http://www.kseven.me/tags/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
+      <category term="羊没了鸡汤还要吗" scheme="http://www.kseven.me/tags/%E7%BE%8A%E6%B2%A1%E4%BA%86%E9%B8%A1%E6%B1%A4%E8%BF%98%E8%A6%81%E5%90%97/"/>
     
       <category term="叙事高手" scheme="http://www.kseven.me/tags/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
     
-      <category term="羊没了鸡汤还要吗" scheme="http://www.kseven.me/tags/%E7%BE%8A%E6%B2%A1%E4%BA%86%E9%B8%A1%E6%B1%A4%E8%BF%98%E8%A6%81%E5%90%97/"/>
+      <category term="随想笔记" scheme="http://www.kseven.me/tags/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
     
       <category term="朋友圈" scheme="http://www.kseven.me/tags/%E6%9C%8B%E5%8F%8B%E5%9C%88/"/>
     
@@ -5642,7 +5761,7 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
 <blockquote>
 <p>学习一门语言，经常都是从打印<em> “Hello，World” </em>开始的，打过招呼后，你便可以进入程序的新世界。</p>
 </blockquote>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">language</span>=<span class="string">"JavaScript"</span>&gt;</span><span class="undefined"></span></div><div class="line">function sayHello()&#123;</div><div class="line">    document.write("Hello World");</div><div class="line">&#125;</div><div class="line">sayHello();</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">language</span>=<span class="string">"JavaScript"</span>&gt;</span><span class="javascript"></span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">sayHello</span>(<span class="params"></span>)</span>&#123;</div><div class="line">    <span class="built_in">document</span>.write(<span class="string">"Hello World"</span>);</div><div class="line">&#125;</div><div class="line">sayHello();</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
 <p>想一想，你刚出生，第一次睁开眼看到这个世界，阳光或者月光穿越你还湿润着的睫毛，投射在娇嫩的视网膜上，新鲜新奇的世界，奇幻奇妙的体验对不对？你想说的第一句话会不会是，“你好啊，世界！”当然，这个前提是你足够有天赋，足够早熟，胎教足够丰富而成功。相信绝大多数的小伙伴，面对这个世界的第一反应，应该是“哇呜……”大哭了呢。</p>
 <h3 id="Hello-World更像是机器人言语？"><a href="#Hello-World更像是机器人言语？" class="headerlink" title="Hello World更像是机器人言语？"></a>Hello World更像是机器人言语？</h3><blockquote>
 <p>假设你设计了一款机器人，高级智能的机器人。如果要你来设定他跟这个世界的第一次交互，会不会是，“Hello World！”呢。第一次读的时候，总感觉就是机器人的见面语，自己还脑补了各种画面，比如撸啊撸的<code>布里茨</code>， <a href="http://v.youku.com/v_show/id_XNjI4NzA5NzY4.html?tpa=dW5pb25faWQ9MTAzNTY1XzEwMDAwMV8wMV8wMQ" target="_blank" rel="external">我的女友是机器人</a>  ，<a href="http://v.youku.com/v_show/id_XMTQxOTY4NTk2OA==.html" target="_blank" rel="external">机器人总动员</a>。第一部动漫电影就献给了它，记忆犹新。叙叙吧…</p>
@@ -5670,9 +5789,9 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
       <category term="随想笔记" scheme="http://www.kseven.me/categories/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="随想笔记" scheme="http://www.kseven.me/tags/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
-    
       <category term="叙事高手" scheme="http://www.kseven.me/tags/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
+    
+      <category term="随想笔记" scheme="http://www.kseven.me/tags/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
     
       <category term="心灵鸡汤" scheme="http://www.kseven.me/tags/%E5%BF%83%E7%81%B5%E9%B8%A1%E6%B1%A4/"/>
     
