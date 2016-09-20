@@ -4,6 +4,32 @@
 
     
   <url>
+    <loc>http://www.kseven.me/2016/function/</loc>
+    <lastmod>2016-09-20T09:45:58.670Z</lastmod>
+    <data>
+        <display>
+        <title>JavaScript函数</title>
+        <pubTime>2016-09-20T15:43:00.000Z</pubTime>
+        
+        <tag>前端笔记</tag>
+         
+        <tag>JavaScript</tag>
+         
+        <tag>新手指南</tag>
+         
+        <tag>函数</tag>
+         
+         
+           
+             
+              <breadCrumb title="前端笔记" url="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.kseven.me/2016/Array/</loc>
     <lastmod>2016-09-16T13:58:33.257Z</lastmod>
     <data>
@@ -11,11 +37,11 @@
         <title>JavaScript快速入门（数组）</title>
         <pubTime>2016-09-16T15:43:00.000Z</pubTime>
         
+        <tag>前端笔记</tag>
+         
         <tag>JavaScript</tag>
          
         <tag>新手指南</tag>
-         
-        <tag>前端笔记</tag>
          
         <tag>数组</tag>
          
@@ -37,13 +63,13 @@
         <title>JavaScript快速入门（对象）</title>
         <pubTime>2016-09-16T14:43:00.000Z</pubTime>
         
+        <tag>前端笔记</tag>
+         
         <tag>JavaScript</tag>
          
         <tag>对象</tag>
          
         <tag>新手指南</tag>
-         
-        <tag>前端笔记</tag>
          
          
            
@@ -63,11 +89,11 @@
         <title>新手指南Linux新手应该知道的26个命令</title>
         <pubTime>2016-09-12T14:43:00.000Z</pubTime>
         
-        <tag>新手指南</tag>
-         
         <tag>前端笔记</tag>
          
         <tag>Linux</tag>
+         
+        <tag>新手指南</tag>
          
         <tag>命令行</tag>
          
@@ -91,9 +117,9 @@
         <title>你理解的人多了就孤独了</title>
         <pubTime>2016-09-04T13:59:28.000Z</pubTime>
         
-        <tag>叙事高手</tag>
-         
         <tag>随想笔记</tag>
+         
+        <tag>叙事高手</tag>
          
         <tag>理解孤独</tag>
          
@@ -115,9 +141,9 @@
         <title>Fork && Hello World.</title>
         <pubTime>2016-08-26T18:12:40.000Z</pubTime>
         
-        <tag>叙事高手</tag>
-         
         <tag>随想笔记</tag>
+         
+        <tag>叙事高手</tag>
          
         <tag>心灵鸡汤</tag>
          
@@ -139,9 +165,9 @@
         <title>事件处理中的this:attachEvent, addEventListener, onclick</title>
         <pubTime>2016-09-01T12:01:49.000Z</pubTime>
         
-        <tag>JavaScript</tag>
-         
         <tag>前端笔记</tag>
+         
+        <tag>JavaScript</tag>
          
         <tag>DOM</tag>
          
@@ -167,11 +193,11 @@
         <title>放羊和砍柴的故事</title>
         <pubTime>2016-08-30T22:32:37.000Z</pubTime>
         
-        <tag>羊没了鸡汤还要吗</tag>
+        <tag>随想笔记</tag>
          
         <tag>叙事高手</tag>
          
-        <tag>随想笔记</tag>
+        <tag>羊没了鸡汤还要吗</tag>
          
         <tag>朋友圈</tag>
          
@@ -193,13 +219,13 @@
         <title>Hexo文档，管理自己的博客</title>
         <pubTime>2016-09-01T05:05:08.000Z</pubTime>
         
-        <tag>前端笔记</tag>
-         
         <tag>Hexo</tag>
          
         <tag>博客搭建</tag>
          
         <tag>Next</tag>
+         
+        <tag>前端笔记</tag>
          
          
            
@@ -244,9 +270,9 @@
         <title>JavaScript ECMAScript 6 入门</title>
         <pubTime>2016-09-01T06:58:22.000Z</pubTime>
         
-        <tag>JavaScript</tag>
-         
         <tag>前端笔记</tag>
+         
+        <tag>JavaScript</tag>
          
         <tag>ES 6</tag>
          

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.kseven.me/"/>
-  <updated>2016-09-16T13:58:33.257Z</updated>
+  <updated>2016-09-20T09:45:58.670Z</updated>
   <id>http://www.kseven.me/</id>
   
   <author>
@@ -14,6 +14,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaScript函数</title>
+    <link href="http://www.kseven.me/2016/function/"/>
+    <id>http://www.kseven.me/2016/function/</id>
+    <published>2016-09-20T15:43:00.000Z</published>
+    <updated>2016-09-20T09:45:58.670Z</updated>
+    
+    <content type="html"><![CDATA[<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 100%;"><img src="https://oc47w16ru.qnssl.com/20160920173406.png" alt="linux-command"></div></div><div class="group-picture-row"></div></div></div>
+<h3 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h3><p>我们知道圆的面积计算公式为：<br>S = πr<sup>2</sup><br>当我们知道半径<code>r</code>的值时，就可以根据公式计算出面积。假设我们需要计算3个不同大小的圆的面积：<br><a id="more"></a><br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> r1 = <span class="number">12.34</span>;</div><div class="line"><span class="keyword">var</span> r2 = <span class="number">9.08</span>;</div><div class="line"><span class="keyword">var</span> r3 = <span class="number">73.1</span>;</div><div class="line"><span class="keyword">var</span> s1 = <span class="number">3.14</span> * r1 * r1;</div><div class="line"><span class="keyword">var</span> s2 = <span class="number">3.14</span> * r2 * r2;</div><div class="line"><span class="keyword">var</span> s3 = <span class="number">3.14</span> * r3 * r3;</div></pre></td></tr></table></figure></p>
+<p>当代码出现有规律的重复的时候，你就需要当心了，每次写<code>3.14 * x * x</code>不仅很麻烦，而且，如果要把<code>3.14</code>改成<code>3.14159265359</code>的时候，得全部替换。</p>
+<p>有了函数，我们就不再每次写<code>s = 3.14 * x * x</code>，而是写成更有意义的函数调用<code>s = area_of_circle(x)</code>，而函数<code>area_of_circle</code>本身只需要写一次，就可以多次调用。</p>
+<p>基本上所有的高级语言都支持函数，JavaScript也不例外。JavaScript的函数不但是“头等公民”，而且可以像变量一样使用，具有非常强大的抽象能力。</p>
+<h3 id="抽象"><a href="#抽象" class="headerlink" title="抽象"></a>抽象</h3><p>抽象是数学中非常常见的概念。举个例子：</p>
+<p>计算数列的和，比如：<code>1 + 2 + 3 + ... + 100</code>，写起来十分不方便，于是数学家发明了求和符号∑，可以把<code>1 + 2 + 3 + ... + 100</code>记作：</p>
+<p>100<br><span style="font-size:3em">∑</span><span style="font-size:2em">n</span><br>n=1</p>
+<p>这种抽象记法非常强大，因为我们看到 ∑ 就可以理解成求和，而不是还原成低级的加法运算。</p>
+<p>而且，这种抽象记法是可扩展的，比如：</p>
+<p>100<br><span style="font-size:3em">∑</span><span style="font-size:2em">(n<sup>2</sup>+1)</span><br>n=1</p>
+<p>还原成加法运算就变成了：</p>
+<p>(1 x 1 + 1) + (2 x 2 + 1) + (3 x 3 + 1) + … + (100 x 100 + 1)</p>
+<p>可见，借助抽象，我们才能不关心底层的具体计算过程，而直接在更高的层次上思考问题。<br>写计算机程序也是一样，函数就是最基本的一种代码抽象的方式。</p>
+<blockquote class="blockquote-center"><p>此文章为引用整理:<a href="">引用地址</a><br>转载请注明出处:<a href="http://kseven.me/2016/function/" target="_blank" rel="external">http://kseven.me/2016/function/</a></p>
+</blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-container&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot;  style=&quot;width: 100%;&quot;&gt;&lt;img src=&quot;https://oc47w16ru.qnssl.com/20160920173406.png&quot; alt=&quot;linux-command&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;函数&quot;&gt;&lt;a href=&quot;#函数&quot; class=&quot;headerlink&quot; title=&quot;函数&quot;&gt;&lt;/a&gt;函数&lt;/h3&gt;&lt;p&gt;我们知道圆的面积计算公式为：&lt;br&gt;S = πr&lt;sup&gt;2&lt;/sup&gt;&lt;br&gt;当我们知道半径&lt;code&gt;r&lt;/code&gt;的值时，就可以根据公式计算出面积。假设我们需要计算3个不同大小的圆的面积：&lt;br&gt;
+    
+    </summary>
+    
+      <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
+    
+      <category term="新手指南" scheme="http://www.kseven.me/tags/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"/>
+    
+      <category term="函数" scheme="http://www.kseven.me/tags/%E5%87%BD%E6%95%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaScript快速入门（数组）</title>
@@ -73,11 +117,11 @@
       <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
+      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
       <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
     
       <category term="新手指南" scheme="http://www.kseven.me/tags/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"/>
-    
-      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
       <category term="数组" scheme="http://www.kseven.me/tags/%E6%95%B0%E7%BB%84/"/>
     
@@ -124,13 +168,13 @@
       <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
+      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
       <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
     
       <category term="对象" scheme="http://www.kseven.me/tags/%E5%AF%B9%E8%B1%A1/"/>
     
       <category term="新手指南" scheme="http://www.kseven.me/tags/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"/>
-    
-      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -258,11 +302,11 @@
       <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="新手指南" scheme="http://www.kseven.me/tags/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"/>
-    
       <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
       <category term="Linux" scheme="http://www.kseven.me/tags/Linux/"/>
+    
+      <category term="新手指南" scheme="http://www.kseven.me/tags/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"/>
     
       <category term="命令行" scheme="http://www.kseven.me/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
     
@@ -316,9 +360,9 @@
       <category term="叙事高手" scheme="http://www.kseven.me/categories/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
     
     
-      <category term="叙事高手" scheme="http://www.kseven.me/tags/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
-    
       <category term="随想笔记" scheme="http://www.kseven.me/tags/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="叙事高手" scheme="http://www.kseven.me/tags/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
     
       <category term="理解孤独" scheme="http://www.kseven.me/tags/%E7%90%86%E8%A7%A3%E5%AD%A4%E7%8B%AC/"/>
     
@@ -382,9 +426,9 @@
       <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
-    
       <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
     
       <category term="DOM" scheme="http://www.kseven.me/tags/DOM/"/>
     
@@ -5154,9 +5198,9 @@
       <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
-    
       <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
     
       <category term="ES 6" scheme="http://www.kseven.me/tags/ES-6/"/>
     
@@ -5542,13 +5586,13 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
       <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
-    
       <category term="Hexo" scheme="http://www.kseven.me/tags/Hexo/"/>
     
       <category term="博客搭建" scheme="http://www.kseven.me/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
       <category term="Next" scheme="http://www.kseven.me/tags/Next/"/>
+    
+      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -5623,11 +5667,11 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
       <category term="叙事高手" scheme="http://www.kseven.me/categories/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
     
     
-      <category term="羊没了鸡汤还要吗" scheme="http://www.kseven.me/tags/%E7%BE%8A%E6%B2%A1%E4%BA%86%E9%B8%A1%E6%B1%A4%E8%BF%98%E8%A6%81%E5%90%97/"/>
+      <category term="随想笔记" scheme="http://www.kseven.me/tags/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
     
       <category term="叙事高手" scheme="http://www.kseven.me/tags/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
     
-      <category term="随想笔记" scheme="http://www.kseven.me/tags/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
+      <category term="羊没了鸡汤还要吗" scheme="http://www.kseven.me/tags/%E7%BE%8A%E6%B2%A1%E4%BA%86%E9%B8%A1%E6%B1%A4%E8%BF%98%E8%A6%81%E5%90%97/"/>
     
       <category term="朋友圈" scheme="http://www.kseven.me/tags/%E6%9C%8B%E5%8F%8B%E5%9C%88/"/>
     
@@ -5761,7 +5805,7 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
 <blockquote>
 <p>学习一门语言，经常都是从打印<em> “Hello，World” </em>开始的，打过招呼后，你便可以进入程序的新世界。</p>
 </blockquote>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">language</span>=<span class="string">"JavaScript"</span>&gt;</span><span class="javascript"></span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">sayHello</span>(<span class="params"></span>)</span>&#123;</div><div class="line">    <span class="built_in">document</span>.write(<span class="string">"Hello World"</span>);</div><div class="line">&#125;</div><div class="line">sayHello();</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">language</span>=<span class="string">"JavaScript"</span>&gt;</span><span class="undefined"></span></div><div class="line">function sayHello()&#123;</div><div class="line">    document.write("Hello World");</div><div class="line">&#125;</div><div class="line">sayHello();</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
 <p>想一想，你刚出生，第一次睁开眼看到这个世界，阳光或者月光穿越你还湿润着的睫毛，投射在娇嫩的视网膜上，新鲜新奇的世界，奇幻奇妙的体验对不对？你想说的第一句话会不会是，“你好啊，世界！”当然，这个前提是你足够有天赋，足够早熟，胎教足够丰富而成功。相信绝大多数的小伙伴，面对这个世界的第一反应，应该是“哇呜……”大哭了呢。</p>
 <h3 id="Hello-World更像是机器人言语？"><a href="#Hello-World更像是机器人言语？" class="headerlink" title="Hello World更像是机器人言语？"></a>Hello World更像是机器人言语？</h3><blockquote>
 <p>假设你设计了一款机器人，高级智能的机器人。如果要你来设定他跟这个世界的第一次交互，会不会是，“Hello World！”呢。第一次读的时候，总感觉就是机器人的见面语，自己还脑补了各种画面，比如撸啊撸的<code>布里茨</code>， <a href="http://v.youku.com/v_show/id_XNjI4NzA5NzY4.html?tpa=dW5pb25faWQ9MTAzNTY1XzEwMDAwMV8wMV8wMQ" target="_blank" rel="external">我的女友是机器人</a>  ，<a href="http://v.youku.com/v_show/id_XMTQxOTY4NTk2OA==.html" target="_blank" rel="external">机器人总动员</a>。第一部动漫电影就献给了它，记忆犹新。叙叙吧…</p>
@@ -5789,9 +5833,9 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
       <category term="随想笔记" scheme="http://www.kseven.me/categories/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="叙事高手" scheme="http://www.kseven.me/tags/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
-    
       <category term="随想笔记" scheme="http://www.kseven.me/tags/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="叙事高手" scheme="http://www.kseven.me/tags/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
     
       <category term="心灵鸡汤" scheme="http://www.kseven.me/tags/%E5%BF%83%E7%81%B5%E9%B8%A1%E6%B1%A4/"/>
     
