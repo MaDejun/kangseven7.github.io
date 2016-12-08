@@ -3,6 +3,30 @@
 
 
     
+  <url>
+    <loc>http://www.kseven.me/2016/Graphics-Gallery/</loc>
+    <lastmod>2016-12-08T13:12:29.732Z</lastmod>
+    <data>
+        <display>
+        <title>Graphics-GalleryHZ</title>
+        <pubTime>2016-08-27T14:23:04.000Z</pubTime>
+        
+        <tag>生活圈</tag>
+         
+        <tag>美图欣赏</tag>
+         
+        <tag>手机随拍</tag>
+         
+         
+           
+             
+              <breadCrumb title="图形相册" url="http://www.kseven.me/categories/%E5%9B%BE%E5%BD%A2%E7%9B%B8%E5%86%8C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://www.kseven.me/2016/function/</loc>
@@ -232,30 +256,6 @@
            
              
               <breadCrumb title="前端笔记" url="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.kseven.me/2016/Graphics-Gallery/</loc>
-    <lastmod>2016-09-02T06:04:42.822Z</lastmod>
-    <data>
-        <display>
-        <title>Graphics-GalleryHZ</title>
-        <pubTime>2016-08-27T14:23:04.000Z</pubTime>
-        
-        <tag>生活圈</tag>
-         
-        <tag>美图欣赏</tag>
-         
-        <tag>手机随拍</tag>
-         
-         
-           
-             
-              <breadCrumb title="图形相册" url="http://www.kseven.me/categories/%E5%9B%BE%E5%BD%A2%E7%9B%B8%E5%86%8C/"/>
           
         </display>
     </data>
