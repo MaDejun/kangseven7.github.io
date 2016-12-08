@@ -49,11 +49,11 @@
       <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
-    
       <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
     
       <category term="新手指南" scheme="http://www.kseven.me/tags/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"/>
+    
+      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
       <category term="函数" scheme="http://www.kseven.me/tags/%E5%87%BD%E6%95%B0/"/>
     
@@ -117,13 +117,13 @@
       <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
-    
       <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
+    
+      <category term="数组" scheme="http://www.kseven.me/tags/%E6%95%B0%E7%BB%84/"/>
     
       <category term="新手指南" scheme="http://www.kseven.me/tags/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"/>
     
-      <category term="数组" scheme="http://www.kseven.me/tags/%E6%95%B0%E7%BB%84/"/>
+      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -168,13 +168,13 @@
       <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
-    
       <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
     
-      <category term="对象" scheme="http://www.kseven.me/tags/%E5%AF%B9%E8%B1%A1/"/>
-    
       <category term="新手指南" scheme="http://www.kseven.me/tags/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"/>
+    
+      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="对象" scheme="http://www.kseven.me/tags/%E5%AF%B9%E8%B1%A1/"/>
     
   </entry>
   
@@ -302,11 +302,11 @@
       <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
+      <category term="新手指南" scheme="http://www.kseven.me/tags/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"/>
+    
       <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
       <category term="Linux" scheme="http://www.kseven.me/tags/Linux/"/>
-    
-      <category term="新手指南" scheme="http://www.kseven.me/tags/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"/>
     
       <category term="命令行" scheme="http://www.kseven.me/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
     
@@ -426,9 +426,9 @@
       <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
-    
       <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
+    
+      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
       <category term="DOM" scheme="http://www.kseven.me/tags/DOM/"/>
     
@@ -5198,9 +5198,9 @@
       <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
-    
       <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
+    
+      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
       <category term="ES 6" scheme="http://www.kseven.me/tags/ES-6/"/>
     
@@ -5586,13 +5586,13 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
       <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
+      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    
       <category term="Hexo" scheme="http://www.kseven.me/tags/Hexo/"/>
     
       <category term="博客搭建" scheme="http://www.kseven.me/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
       <category term="Next" scheme="http://www.kseven.me/tags/Next/"/>
-    
-      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -5805,7 +5805,7 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
 <blockquote>
 <p>学习一门语言，经常都是从打印<em> “Hello，World” </em>开始的，打过招呼后，你便可以进入程序的新世界。</p>
 </blockquote>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">language</span>=<span class="string">"JavaScript"</span>&gt;</span><span class="undefined"></span></div><div class="line">function sayHello()&#123;</div><div class="line">    document.write("Hello World");</div><div class="line">&#125;</div><div class="line">sayHello();</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">language</span>=<span class="string">"JavaScript"</span>&gt;</span><span class="javascript"></span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">sayHello</span>(<span class="params"></span>)</span>&#123;</div><div class="line">    <span class="built_in">document</span>.write(<span class="string">"Hello World"</span>);</div><div class="line">&#125;</div><div class="line">sayHello();</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
 <p>想一想，你刚出生，第一次睁开眼看到这个世界，阳光或者月光穿越你还湿润着的睫毛，投射在娇嫩的视网膜上，新鲜新奇的世界，奇幻奇妙的体验对不对？你想说的第一句话会不会是，“你好啊，世界！”当然，这个前提是你足够有天赋，足够早熟，胎教足够丰富而成功。相信绝大多数的小伙伴，面对这个世界的第一反应，应该是“哇呜……”大哭了呢。</p>
 <h3 id="Hello-World更像是机器人言语？"><a href="#Hello-World更像是机器人言语？" class="headerlink" title="Hello World更像是机器人言语？"></a>Hello World更像是机器人言语？</h3><blockquote>
 <p>假设你设计了一款机器人，高级智能的机器人。如果要你来设定他跟这个世界的第一次交互，会不会是，“Hello World！”呢。第一次读的时候，总感觉就是机器人的见面语，自己还脑补了各种画面，比如撸啊撸的<code>布里茨</code>， <a href="http://v.youku.com/v_show/id_XNjI4NzA5NzY4.html?tpa=dW5pb25faWQ9MTAzNTY1XzEwMDAwMV8wMV8wMQ" target="_blank" rel="external">我的女友是机器人</a>  ，<a href="http://v.youku.com/v_show/id_XMTQxOTY4NTk2OA==.html" target="_blank" rel="external">机器人总动员</a>。第一部动漫电影就献给了它，记忆犹新。叙叙吧…</p>
