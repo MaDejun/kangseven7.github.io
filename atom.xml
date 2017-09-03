@@ -4,9 +4,9 @@
   <subtitle>NOT Genius but Try Best.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://www.kseven.me/"/>
+  <link href="https://kangseven7.github.io/"/>
   <updated>2016-09-20T09:45:58.670Z</updated>
-  <id>http://www.kseven.me/</id>
+  <id>https://kangseven7.github.io/</id>
   
   <author>
     <name>Kang Seven</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>JavaScript函数</title>
-    <link href="http://www.kseven.me/2016/function/"/>
-    <id>http://www.kseven.me/2016/function/</id>
+    <link href="https://kangseven7.github.io/2016/function/"/>
+    <id>https://kangseven7.github.io/2016/function/</id>
     <published>2016-09-20T15:43:00.000Z</published>
     <updated>2016-09-20T09:45:58.670Z</updated>
     
@@ -46,23 +46,23 @@
     
     </summary>
     
-      <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+      <category term="前端笔记" scheme="https://kangseven7.github.io/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="https://kangseven7.github.io/tags/JavaScript/"/>
     
-      <category term="新手指南" scheme="http://www.kseven.me/tags/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"/>
+      <category term="新手指南" scheme="https://kangseven7.github.io/tags/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"/>
     
-      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+      <category term="前端笔记" scheme="https://kangseven7.github.io/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="函数" scheme="http://www.kseven.me/tags/%E5%87%BD%E6%95%B0/"/>
+      <category term="函数" scheme="https://kangseven7.github.io/tags/%E5%87%BD%E6%95%B0/"/>
     
   </entry>
   
   <entry>
     <title>JavaScript快速入门（数组）</title>
-    <link href="http://www.kseven.me/2016/Array/"/>
-    <id>http://www.kseven.me/2016/Array/</id>
+    <link href="https://kangseven7.github.io/2016/Array/"/>
+    <id>https://kangseven7.github.io/2016/Array/</id>
     <published>2016-09-16T15:43:00.000Z</published>
     <updated>2016-09-16T13:58:33.257Z</updated>
     
@@ -114,23 +114,23 @@
     
     </summary>
     
-      <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+      <category term="前端笔记" scheme="https://kangseven7.github.io/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="https://kangseven7.github.io/tags/JavaScript/"/>
     
-      <category term="数组" scheme="http://www.kseven.me/tags/%E6%95%B0%E7%BB%84/"/>
+      <category term="数组" scheme="https://kangseven7.github.io/tags/%E6%95%B0%E7%BB%84/"/>
     
-      <category term="新手指南" scheme="http://www.kseven.me/tags/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"/>
+      <category term="新手指南" scheme="https://kangseven7.github.io/tags/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"/>
     
-      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+      <category term="前端笔记" scheme="https://kangseven7.github.io/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>JavaScript快速入门（对象）</title>
-    <link href="http://www.kseven.me/2016/Objects/"/>
-    <id>http://www.kseven.me/2016/Objects/</id>
+    <link href="https://kangseven7.github.io/2016/Objects/"/>
+    <id>https://kangseven7.github.io/2016/Objects/</id>
     <published>2016-09-16T14:43:00.000Z</published>
     <updated>2016-09-16T13:32:58.034Z</updated>
     
@@ -165,23 +165,23 @@
     
     </summary>
     
-      <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+      <category term="前端笔记" scheme="https://kangseven7.github.io/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="https://kangseven7.github.io/tags/JavaScript/"/>
     
-      <category term="新手指南" scheme="http://www.kseven.me/tags/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"/>
+      <category term="新手指南" scheme="https://kangseven7.github.io/tags/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"/>
     
-      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+      <category term="前端笔记" scheme="https://kangseven7.github.io/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="对象" scheme="http://www.kseven.me/tags/%E5%AF%B9%E8%B1%A1/"/>
+      <category term="对象" scheme="https://kangseven7.github.io/tags/%E5%AF%B9%E8%B1%A1/"/>
     
   </entry>
   
   <entry>
     <title>新手指南Linux新手应该知道的26个命令</title>
-    <link href="http://www.kseven.me/2016/command/"/>
-    <id>http://www.kseven.me/2016/command/</id>
+    <link href="https://kangseven7.github.io/2016/command/"/>
+    <id>https://kangseven7.github.io/2016/command/</id>
     <published>2016-09-12T14:43:00.000Z</published>
     <updated>2016-09-12T16:51:51.426Z</updated>
     
@@ -299,25 +299,25 @@
     
     </summary>
     
-      <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+      <category term="前端笔记" scheme="https://kangseven7.github.io/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="新手指南" scheme="http://www.kseven.me/tags/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"/>
+      <category term="新手指南" scheme="https://kangseven7.github.io/tags/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/"/>
     
-      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+      <category term="前端笔记" scheme="https://kangseven7.github.io/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="Linux" scheme="http://www.kseven.me/tags/Linux/"/>
+      <category term="Linux" scheme="https://kangseven7.github.io/tags/Linux/"/>
     
-      <category term="命令行" scheme="http://www.kseven.me/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
+      <category term="命令行" scheme="https://kangseven7.github.io/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
     
-      <category term="终端" scheme="http://www.kseven.me/tags/%E7%BB%88%E7%AB%AF/"/>
+      <category term="终端" scheme="https://kangseven7.github.io/tags/%E7%BB%88%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
     <title>你理解的人多了就孤独了</title>
-    <link href="http://www.kseven.me/2016/Understand-loneliness/"/>
-    <id>http://www.kseven.me/2016/Understand-loneliness/</id>
+    <link href="https://kangseven7.github.io/2016/Understand-loneliness/"/>
+    <id>https://kangseven7.github.io/2016/Understand-loneliness/</id>
     <published>2016-09-04T13:59:28.000Z</published>
     <updated>2016-09-04T17:21:55.916Z</updated>
     
@@ -357,21 +357,21 @@
     
     </summary>
     
-      <category term="叙事高手" scheme="http://www.kseven.me/categories/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
+      <category term="叙事高手" scheme="https://kangseven7.github.io/categories/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
     
     
-      <category term="叙事高手" scheme="http://www.kseven.me/tags/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
+      <category term="随想笔记" scheme="https://kangseven7.github.io/tags/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="随想笔记" scheme="http://www.kseven.me/tags/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
+      <category term="叙事高手" scheme="https://kangseven7.github.io/tags/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
     
-      <category term="理解孤独" scheme="http://www.kseven.me/tags/%E7%90%86%E8%A7%A3%E5%AD%A4%E7%8B%AC/"/>
+      <category term="理解孤独" scheme="https://kangseven7.github.io/tags/%E7%90%86%E8%A7%A3%E5%AD%A4%E7%8B%AC/"/>
     
   </entry>
   
   <entry>
     <title>事件处理中的this:attachEvent, addEventListener, onclick</title>
-    <link href="http://www.kseven.me/2016/this-onclick/"/>
-    <id>http://www.kseven.me/2016/this-onclick/</id>
+    <link href="https://kangseven7.github.io/2016/this-onclick/"/>
+    <id>https://kangseven7.github.io/2016/this-onclick/</id>
     <published>2016-09-01T12:01:49.000Z</published>
     <updated>2016-09-02T06:05:56.956Z</updated>
     
@@ -423,25 +423,25 @@
     
     </summary>
     
-      <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+      <category term="前端笔记" scheme="https://kangseven7.github.io/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="https://kangseven7.github.io/tags/JavaScript/"/>
     
-      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+      <category term="前端笔记" scheme="https://kangseven7.github.io/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="DOM" scheme="http://www.kseven.me/tags/DOM/"/>
+      <category term="DOM" scheme="https://kangseven7.github.io/tags/DOM/"/>
     
-      <category term="jQuery" scheme="http://www.kseven.me/tags/jQuery/"/>
+      <category term="jQuery" scheme="https://kangseven7.github.io/tags/jQuery/"/>
     
-      <category term="事件" scheme="http://www.kseven.me/tags/%E4%BA%8B%E4%BB%B6/"/>
+      <category term="事件" scheme="https://kangseven7.github.io/tags/%E4%BA%8B%E4%BB%B6/"/>
     
   </entry>
   
   <entry>
     <title>JavaScript ECMAScript 6 入门</title>
-    <link href="http://www.kseven.me/2016/JavaScrip-ES6/"/>
-    <id>http://www.kseven.me/2016/JavaScrip-ES6/</id>
+    <link href="https://kangseven7.github.io/2016/JavaScrip-ES6/"/>
+    <id>https://kangseven7.github.io/2016/JavaScrip-ES6/</id>
     <published>2016-09-01T06:58:22.000Z</published>
     <updated>2016-09-01T07:58:22.000Z</updated>
     
@@ -5195,23 +5195,23 @@
     
     </summary>
     
-      <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+      <category term="前端笔记" scheme="https://kangseven7.github.io/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="JavaScript" scheme="http://www.kseven.me/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="https://kangseven7.github.io/tags/JavaScript/"/>
     
-      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+      <category term="前端笔记" scheme="https://kangseven7.github.io/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="ES 6" scheme="http://www.kseven.me/tags/ES-6/"/>
+      <category term="ES 6" scheme="https://kangseven7.github.io/tags/ES-6/"/>
     
-      <category term="入门文档" scheme="http://www.kseven.me/tags/%E5%85%A5%E9%97%A8%E6%96%87%E6%A1%A3/"/>
+      <category term="入门文档" scheme="https://kangseven7.github.io/tags/%E5%85%A5%E9%97%A8%E6%96%87%E6%A1%A3/"/>
     
   </entry>
   
   <entry>
     <title>Hexo文档，管理自己的博客</title>
-    <link href="http://www.kseven.me/2016/Hexo-file/"/>
-    <id>http://www.kseven.me/2016/Hexo-file/</id>
+    <link href="https://kangseven7.github.io/2016/Hexo-file/"/>
+    <id>https://kangseven7.github.io/2016/Hexo-file/</id>
     <published>2016-09-01T05:05:08.000Z</published>
     <updated>2016-09-02T06:05:15.027Z</updated>
     
@@ -5583,23 +5583,23 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
     
     </summary>
     
-      <category term="前端笔记" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+      <category term="前端笔记" scheme="https://kangseven7.github.io/categories/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="前端笔记" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+      <category term="前端笔记" scheme="https://kangseven7.github.io/tags/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="Hexo" scheme="http://www.kseven.me/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://kangseven7.github.io/tags/Hexo/"/>
     
-      <category term="博客搭建" scheme="http://www.kseven.me/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+      <category term="博客搭建" scheme="https://kangseven7.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
-      <category term="Next" scheme="http://www.kseven.me/tags/Next/"/>
+      <category term="Next" scheme="https://kangseven7.github.io/tags/Next/"/>
     
   </entry>
   
   <entry>
     <title>放羊和砍柴的故事</title>
-    <link href="http://www.kseven.me/2016/Sheep-and-firewood-story/"/>
-    <id>http://www.kseven.me/2016/Sheep-and-firewood-story/</id>
+    <link href="https://kangseven7.github.io/2016/Sheep-and-firewood-story/"/>
+    <id>https://kangseven7.github.io/2016/Sheep-and-firewood-story/</id>
     <published>2016-08-30T22:32:37.000Z</published>
     <updated>2016-09-02T06:05:44.268Z</updated>
     
@@ -5664,23 +5664,23 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
     
     </summary>
     
-      <category term="叙事高手" scheme="http://www.kseven.me/categories/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
+      <category term="叙事高手" scheme="https://kangseven7.github.io/categories/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
     
     
-      <category term="羊没了鸡汤还要吗" scheme="http://www.kseven.me/tags/%E7%BE%8A%E6%B2%A1%E4%BA%86%E9%B8%A1%E6%B1%A4%E8%BF%98%E8%A6%81%E5%90%97/"/>
+      <category term="随想笔记" scheme="https://kangseven7.github.io/tags/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="叙事高手" scheme="http://www.kseven.me/tags/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
+      <category term="叙事高手" scheme="https://kangseven7.github.io/tags/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
     
-      <category term="随想笔记" scheme="http://www.kseven.me/tags/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
+      <category term="羊没了鸡汤还要吗" scheme="https://kangseven7.github.io/tags/%E7%BE%8A%E6%B2%A1%E4%BA%86%E9%B8%A1%E6%B1%A4%E8%BF%98%E8%A6%81%E5%90%97/"/>
     
-      <category term="朋友圈" scheme="http://www.kseven.me/tags/%E6%9C%8B%E5%8F%8B%E5%9C%88/"/>
+      <category term="朋友圈" scheme="https://kangseven7.github.io/tags/%E6%9C%8B%E5%8F%8B%E5%9C%88/"/>
     
   </entry>
   
   <entry>
     <title>跨平台轻量级离线markdown编辑器Haroopad</title>
-    <link href="http://www.kseven.me/2016/Haroopad/"/>
-    <id>http://www.kseven.me/2016/Haroopad/</id>
+    <link href="https://kangseven7.github.io/2016/Haroopad/"/>
+    <id>https://kangseven7.github.io/2016/Haroopad/</id>
     <published>2016-08-27T17:08:40.000Z</published>
     <updated>2016-09-01T05:20:20.000Z</updated>
     
@@ -5750,23 +5750,23 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
     
     </summary>
     
-      <category term="前端工具" scheme="http://www.kseven.me/categories/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/"/>
+      <category term="前端工具" scheme="https://kangseven7.github.io/categories/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="Haroopad" scheme="http://www.kseven.me/tags/Haroopad/"/>
+      <category term="Haroopad" scheme="https://kangseven7.github.io/tags/Haroopad/"/>
     
-      <category term="编辑器" scheme="http://www.kseven.me/tags/%E7%BC%96%E8%BE%91%E5%99%A8/"/>
+      <category term="编辑器" scheme="https://kangseven7.github.io/tags/%E7%BC%96%E8%BE%91%E5%99%A8/"/>
     
-      <category term="Linux" scheme="http://www.kseven.me/tags/Linux/"/>
+      <category term="Linux" scheme="https://kangseven7.github.io/tags/Linux/"/>
     
-      <category term="前端工具" scheme="http://www.kseven.me/tags/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/"/>
+      <category term="前端工具" scheme="https://kangseven7.github.io/tags/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
   <entry>
     <title>Graphics-GalleryHZ</title>
-    <link href="http://www.kseven.me/2016/Graphics-Gallery/"/>
-    <id>http://www.kseven.me/2016/Graphics-Gallery/</id>
+    <link href="https://kangseven7.github.io/2016/Graphics-Gallery/"/>
+    <id>https://kangseven7.github.io/2016/Graphics-Gallery/</id>
     <published>2016-08-27T14:23:04.000Z</published>
     <updated>2016-12-08T13:12:29.732Z</updated>
     
@@ -5781,21 +5781,21 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
     
     </summary>
     
-      <category term="图形相册" scheme="http://www.kseven.me/categories/%E5%9B%BE%E5%BD%A2%E7%9B%B8%E5%86%8C/"/>
+      <category term="图形相册" scheme="https://kangseven7.github.io/categories/%E5%9B%BE%E5%BD%A2%E7%9B%B8%E5%86%8C/"/>
     
     
-      <category term="生活圈" scheme="http://www.kseven.me/tags/%E7%94%9F%E6%B4%BB%E5%9C%88/"/>
+      <category term="生活圈" scheme="https://kangseven7.github.io/tags/%E7%94%9F%E6%B4%BB%E5%9C%88/"/>
     
-      <category term="美图欣赏" scheme="http://www.kseven.me/tags/%E7%BE%8E%E5%9B%BE%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美图欣赏" scheme="https://kangseven7.github.io/tags/%E7%BE%8E%E5%9B%BE%E6%AC%A3%E8%B5%8F/"/>
     
-      <category term="手机随拍" scheme="http://www.kseven.me/tags/%E6%89%8B%E6%9C%BA%E9%9A%8F%E6%8B%8D/"/>
+      <category term="手机随拍" scheme="https://kangseven7.github.io/tags/%E6%89%8B%E6%9C%BA%E9%9A%8F%E6%8B%8D/"/>
     
   </entry>
   
   <entry>
     <title>Fork &amp;&amp; Hello World.</title>
-    <link href="http://www.kseven.me/2016/Fork-Hello-World/"/>
-    <id>http://www.kseven.me/2016/Fork-Hello-World/</id>
+    <link href="https://kangseven7.github.io/2016/Fork-Hello-World/"/>
+    <id>https://kangseven7.github.io/2016/Fork-Hello-World/</id>
     <published>2016-08-26T18:12:40.000Z</published>
     <updated>2016-09-02T08:56:42.197Z</updated>
     
@@ -5831,14 +5831,14 @@ version: <span class="number">0.4</span><span class="number">.5</span><span clas
     
     </summary>
     
-      <category term="随想笔记" scheme="http://www.kseven.me/categories/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
+      <category term="随想笔记" scheme="https://kangseven7.github.io/categories/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="叙事高手" scheme="http://www.kseven.me/tags/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
+      <category term="随想笔记" scheme="https://kangseven7.github.io/tags/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="随想笔记" scheme="http://www.kseven.me/tags/%E9%9A%8F%E6%83%B3%E7%AC%94%E8%AE%B0/"/>
+      <category term="叙事高手" scheme="https://kangseven7.github.io/tags/%E5%8F%99%E4%BA%8B%E9%AB%98%E6%89%8B/"/>
     
-      <category term="心灵鸡汤" scheme="http://www.kseven.me/tags/%E5%BF%83%E7%81%B5%E9%B8%A1%E6%B1%A4/"/>
+      <category term="心灵鸡汤" scheme="https://kangseven7.github.io/tags/%E5%BF%83%E7%81%B5%E9%B8%A1%E6%B1%A4/"/>
     
   </entry>
   
